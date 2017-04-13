@@ -1,0 +1,14 @@
+{
+  "assetsByChunkName": {
+    "app": [
+      "app.js",
+      "app.js.map"
+    ],
+    "frameworks": [
+      "frameworks.js",
+      "frameworks.js.map"
+    ]
+  },
+  "BUILD_HASH": "db2c8148e0e809be629e",
+  "BUILD_VERSION": "1.0.0"
+}

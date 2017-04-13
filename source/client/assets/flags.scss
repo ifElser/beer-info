@@ -1,0 +1,5130 @@
+/* Include files
+  ========================================================================== */
+/* Define values
+   ========================================================================== */
+/* Include files
+  ========================================================================== */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+.flag {
+  background-image: url('//asia.platformcdn.net/image/general/flags.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 18px;
+  margin-top: -2px;
+  + .flag {
+    margin-right:5px;
+  }
+  &.small {
+    width: 24px;
+    height: 18px;
+  }
+  &.middle {
+    width: 32px;
+    height: 24px;
+  }
+  &.big {
+    width: 62px;
+    height: 46px;
+  }
+  &.nnn {
+    background-position: 167px -46px;
+    &.small {
+      background-position: 167px -46px;
+    }
+    &.middle {
+      background-position: 199px -46px;
+    }
+    &.big {
+      background-position: 200 0px;
+    }
+  }
+  &.af {
+    background-position: -33px -46px;
+    &.small {
+      background-position: -33px -46px;
+    }
+    &.middle {
+      background-position: -1px -46px;
+    }
+    &.big {
+      background-position: 0px 0px;
+    }
+  }
+  &.ax {
+    background-position: -95px -46px;
+    &.small {
+      background-position: -95px -46px;
+    }
+    &.middle {
+      background-position: -63px -46px;
+    }
+    &.big {
+      background-position: -62px 0px;
+    }
+  }
+  &.al {
+    background-position: -157px -46px;
+    &.small {
+      background-position: -157px -46px;
+    }
+    &.middle {
+      background-position: -125px -46px;
+    }
+    &.big {
+      background-position: -124px 0px;
+    }
+  }
+  &.dz {
+    background-position: -219px -46px;
+    &.small {
+      background-position: -219px -46px;
+    }
+    &.middle {
+      background-position: -187px -46px;
+    }
+    &.big {
+      background-position: -186px 0px;
+    }
+  }
+  &.as {
+    background-position: -281px -46px;
+    &.small {
+      background-position: -281px -46px;
+    }
+    &.middle {
+      background-position: -249px -46px;
+    }
+    &.big {
+      background-position: -248px 0px;
+    }
+  }
+  &.ad {
+    background-position: -343px -46px;
+    &.small {
+      background-position: -343px -46px;
+    }
+    &.middle {
+      background-position: -311px -46px;
+    }
+    &.big {
+      background-position: -310px 0px;
+    }
+  }
+  &.ao {
+    background-position: -405px -46px;
+    &.small {
+      background-position: -405px -46px;
+    }
+    &.middle {
+      background-position: -373px -46px;
+    }
+    &.big {
+      background-position: -372px 0px;
+    }
+  }
+  &.ai {
+    background-position: -467px -46px;
+    &.small {
+      background-position: -467px -46px;
+    }
+    &.middle {
+      background-position: -435px -46px;
+    }
+    &.big {
+      background-position: -434px 0px;
+    }
+  }
+  &.aq {
+    background-position: -529px -46px;
+    &.small {
+      background-position: -529px -46px;
+    }
+    &.middle {
+      background-position: -497px -46px;
+    }
+    &.big {
+      background-position: -496px 0px;
+    }
+  }
+  &.ag {
+    background-position: -591px -46px;
+    &.small {
+      background-position: -591px -46px;
+    }
+    &.middle {
+      background-position: -559px -46px;
+    }
+    &.big {
+      background-position: -558px 0px;
+    }
+  }
+  &.ar {
+    background-position: -653px -46px;
+    &.small {
+      background-position: -653px -46px;
+    }
+    &.middle {
+      background-position: -621px -46px;
+    }
+    &.big {
+      background-position: -620px 0px;
+    }
+  }
+  &.am {
+    background-position: -715px -46px;
+    &.small {
+      background-position: -715px -46px;
+    }
+    &.middle {
+      background-position: -683px -46px;
+    }
+    &.big {
+      background-position: -682px 0px;
+    }
+  }
+  &.aw {
+    background-position: -777px -46px;
+    &.small {
+      background-position: -777px -46px;
+    }
+    &.middle {
+      background-position: -745px -46px;
+    }
+    &.big {
+      background-position: -744px 0px;
+    }
+  }
+  &.au {
+    background-position: -839px -46px;
+    &.small {
+      background-position: -839px -46px;
+    }
+    &.middle {
+      background-position: -807px -46px;
+    }
+    &.big {
+      background-position: -806px 0px;
+    }
+  }
+  &.at {
+    background-position: -901px -46px;
+    &.small {
+      background-position: -901px -46px;
+    }
+    &.middle {
+      background-position: -869px -46px;
+    }
+    &.big {
+      background-position: -868px 0px;
+    }
+  }
+  &.az {
+    background-position: -963px -46px;
+    &.small {
+      background-position: -963px -46px;
+    }
+    &.middle {
+      background-position: -931px -46px;
+    }
+    &.big {
+      background-position: -930px 0px;
+    }
+  }
+  &.bs {
+    background-position: -1025px -46px;
+    &.small {
+      background-position: -1025px -46px;
+    }
+    &.middle {
+      background-position: -993px -46px;
+    }
+    &.big {
+      background-position: -992px 0px;
+    }
+  }
+  &.bh {
+    background-position: -1087px -46px;
+    &.small {
+      background-position: -1087px -46px;
+    }
+    &.middle {
+      background-position: -1055px -46px;
+    }
+    &.big {
+      background-position: -1054px 0px;
+    }
+  }
+  &.bd {
+    background-position: -1149px -46px;
+    &.small {
+      background-position: -1149px -46px;
+    }
+    &.middle {
+      background-position: -1117px -46px;
+    }
+    &.big {
+      background-position: -1116px 0px;
+    }
+  }
+  &.bb {
+    background-position: -1211px -46px;
+    &.small {
+      background-position: -1211px -46px;
+    }
+    &.middle {
+      background-position: -1179px -46px;
+    }
+    &.big {
+      background-position: -1178px 0px;
+    }
+  }
+  &.by {
+    background-position: -1273px -46px;
+    &.small {
+      background-position: -1273px -46px;
+    }
+    &.middle {
+      background-position: -1241px -46px;
+    }
+    &.big {
+      background-position: -1240px 0px;
+    }
+  }
+  &.be {
+    background-position: -1335px -46px;
+    &.small {
+      background-position: -1335px -46px;
+    }
+    &.middle {
+      background-position: -1303px -46px;
+    }
+    &.big {
+      background-position: -1302px 0px;
+    }
+  }
+  &.bz {
+    background-position: -1397px -46px;
+    &.small {
+      background-position: -1397px -46px;
+    }
+    &.middle {
+      background-position: -1365px -46px;
+    }
+    &.big {
+      background-position: -1364px 0px;
+    }
+  }
+  &.bj {
+    background-position: -1459px -46px;
+    &.small {
+      background-position: -1459px -46px;
+    }
+    &.middle {
+      background-position: -1427px -46px;
+    }
+    &.big {
+      background-position: -1426px 0px;
+    }
+  }
+  &.bm {
+    background-position: -1521px -46px;
+    &.small {
+      background-position: -1521px -46px;
+    }
+    &.middle {
+      background-position: -1489px -46px;
+    }
+    &.big {
+      background-position: -1488px 0px;
+    }
+  }
+  &.bt {
+    background-position: -1583px -46px;
+    &.small {
+      background-position: -1583px -46px;
+    }
+    &.middle {
+      background-position: -1551px -46px;
+    }
+    &.big {
+      background-position: -1550px 0px;
+    }
+  }
+  &.bo {
+    background-position: -1645px -46px;
+    &.small {
+      background-position: -1645px -46px;
+    }
+    &.middle {
+      background-position: -1613px -46px;
+    }
+    &.big {
+      background-position: -1612px 0px;
+    }
+  }
+  &.bq {
+    background-position: -1707px -46px;
+    &.small {
+      background-position: -1707px -46px;
+    }
+    &.middle {
+      background-position: -1675px -46px;
+    }
+    &.big {
+      background-position: -1674px 0px;
+    }
+  }
+  &.ba {
+    background-position: -1769px -46px;
+    &.small {
+      background-position: -1769px -46px;
+    }
+    &.middle {
+      background-position: -1737px -46px;
+    }
+    &.big {
+      background-position: -1736px 0px;
+    }
+  }
+  &.bw {
+    background-position: -1831px -46px;
+    &.small {
+      background-position: -1831px -46px;
+    }
+    &.middle {
+      background-position: -1799px -46px;
+    }
+    &.big {
+      background-position: -1798px 0px;
+    }
+  }
+  &.bv {
+    background-position: -1893px -46px;
+    &.small {
+      background-position: -1893px -46px;
+    }
+    &.middle {
+      background-position: -1861px -46px;
+    }
+    &.big {
+      background-position: -1860px 0px;
+    }
+  }
+  &.br {
+    background-position: -1955px -46px;
+    &.small {
+      background-position: -1955px -46px;
+    }
+    &.middle {
+      background-position: -1923px -46px;
+    }
+    &.big {
+      background-position: -1922px 0px;
+    }
+  }
+  &.io {
+    background-position: -2017px -46px;
+    &.small {
+      background-position: -2017px -46px;
+    }
+    &.middle {
+      background-position: -1985px -46px;
+    }
+    &.big {
+      background-position: -1984px 0px;
+    }
+  }
+  &.bn {
+    background-position: -2079px -46px;
+    &.small {
+      background-position: -2079px -46px;
+    }
+    &.middle {
+      background-position: -2047px -46px;
+    }
+    &.big {
+      background-position: -2046px 0px;
+    }
+  }
+  &.bg {
+    background-position: -2141px -46px;
+    &.small {
+      background-position: -2141px -46px;
+    }
+    &.middle {
+      background-position: -2109px -46px;
+    }
+    &.big {
+      background-position: -2108px 0px;
+    }
+  }
+  &.bf {
+    background-position: -2203px -46px;
+    &.small {
+      background-position: -2203px -46px;
+    }
+    &.middle {
+      background-position: -2171px -46px;
+    }
+    &.big {
+      background-position: -2170px 0px;
+    }
+  }
+  &.bi {
+    background-position: -2265px -46px;
+    &.small {
+      background-position: -2265px -46px;
+    }
+    &.middle {
+      background-position: -2233px -46px;
+    }
+    &.big {
+      background-position: -2232px 0px;
+    }
+  }
+  &.kh {
+    background-position: -2327px -46px;
+    &.small {
+      background-position: -2327px -46px;
+    }
+    &.middle {
+      background-position: -2295px -46px;
+    }
+    &.big {
+      background-position: -2294px 0px;
+    }
+  }
+  &.cm {
+    background-position: -2389px -46px;
+    &.small {
+      background-position: -2389px -46px;
+    }
+    &.middle {
+      background-position: -2357px -46px;
+    }
+    &.big {
+      background-position: -2356px 0px;
+    }
+  }
+  &.ca {
+    background-position: -2451px -46px;
+    &.small {
+      background-position: -2451px -46px;
+    }
+    &.middle {
+      background-position: -2419px -46px;
+    }
+    &.big {
+      background-position: -2418px 0px;
+    }
+  }
+  &.cv {
+    background-position: -2513px -46px;
+    &.small {
+      background-position: -2513px -46px;
+    }
+    &.middle {
+      background-position: -2481px -46px;
+    }
+    &.big {
+      background-position: -2480px 0px;
+    }
+  }
+  &.ky {
+    background-position: -2575px -46px;
+    &.small {
+      background-position: -2575px -46px;
+    }
+    &.middle {
+      background-position: -2543px -46px;
+    }
+    &.big {
+      background-position: -2542px 0px;
+    }
+  }
+  &.cf {
+    background-position: -2637px -46px;
+    &.small {
+      background-position: -2637px -46px;
+    }
+    &.middle {
+      background-position: -2605px -46px;
+    }
+    &.big {
+      background-position: -2604px 0px;
+    }
+  }
+  &.td {
+    background-position: -2699px -46px;
+    &.small {
+      background-position: -2699px -46px;
+    }
+    &.middle {
+      background-position: -2667px -46px;
+    }
+    &.big {
+      background-position: -2666px 0px;
+    }
+  }
+  &.cl {
+    background-position: -2761px -46px;
+    &.small {
+      background-position: -2761px -46px;
+    }
+    &.middle {
+      background-position: -2729px -46px;
+    }
+    &.big {
+      background-position: -2728px 0px;
+    }
+  }
+  &.cn {
+    background-position: -2823px -46px;
+    &.small {
+      background-position: -2823px -46px;
+    }
+    &.middle {
+      background-position: -2791px -46px;
+    }
+    &.big {
+      background-position: -2790px 0px;
+    }
+  }
+  &.cx {
+    background-position: -2885px -46px;
+    &.small {
+      background-position: -2885px -46px;
+    }
+    &.middle {
+      background-position: -2853px -46px;
+    }
+    &.big {
+      background-position: -2852px 0px;
+    }
+  }
+  &.cc {
+    background-position: -2947px -46px;
+    &.small {
+      background-position: -2947px -46px;
+    }
+    &.middle {
+      background-position: -2915px -46px;
+    }
+    &.big {
+      background-position: -2914px 0px;
+    }
+  }
+  &.co {
+    background-position: -3009px -46px;
+    &.small {
+      background-position: -3009px -46px;
+    }
+    &.middle {
+      background-position: -2977px -46px;
+    }
+    &.big {
+      background-position: -2976px 0px;
+    }
+  }
+  &.km {
+    background-position: -3071px -46px;
+    &.small {
+      background-position: -3071px -46px;
+    }
+    &.middle {
+      background-position: -3039px -46px;
+    }
+    &.big {
+      background-position: -3038px 0px;
+    }
+  }
+  &.cg {
+    background-position: -3133px -46px;
+    &.small {
+      background-position: -3133px -46px;
+    }
+    &.middle {
+      background-position: -3101px -46px;
+    }
+    &.big {
+      background-position: -3100px 0px;
+    }
+  }
+  &.cd {
+    background-position: -3195px -46px;
+    &.small {
+      background-position: -3195px -46px;
+    }
+    &.middle {
+      background-position: -3163px -46px;
+    }
+    &.big {
+      background-position: -3162px 0px;
+    }
+  }
+  &.ck {
+    background-position: -3257px -46px;
+    &.small {
+      background-position: -3257px -46px;
+    }
+    &.middle {
+      background-position: -3225px -46px;
+    }
+    &.big {
+      background-position: -3224px 0px;
+    }
+  }
+  &.cr {
+    background-position: -3319px -46px;
+    &.small {
+      background-position: -3319px -46px;
+    }
+    &.middle {
+      background-position: -3287px -46px;
+    }
+    &.big {
+      background-position: -3286px 0px;
+    }
+  }
+  &.ci {
+    background-position: -3381px -46px;
+    &.small {
+      background-position: -3381px -46px;
+    }
+    &.middle {
+      background-position: -3349px -46px;
+    }
+    &.big {
+      background-position: -3348px 0px;
+    }
+  }
+  &.hr {
+    background-position: -3443px -46px;
+    &.small {
+      background-position: -3443px -46px;
+    }
+    &.middle {
+      background-position: -3411px -46px;
+    }
+    &.big {
+      background-position: -3410px 0px;
+    }
+  }
+  &.cu {
+    background-position: -3505px -46px;
+    &.small {
+      background-position: -3505px -46px;
+    }
+    &.middle {
+      background-position: -3473px -46px;
+    }
+    &.big {
+      background-position: -3472px 0px;
+    }
+  }
+  &.cw {
+    background-position: -3567px -46px;
+    &.small {
+      background-position: -3567px -46px;
+    }
+    &.middle {
+      background-position: -3535px -46px;
+    }
+    &.big {
+      background-position: -3534px 0px;
+    }
+  }
+  &.cy {
+    background-position: -3629px -46px;
+    &.small {
+      background-position: -3629px -46px;
+    }
+    &.middle {
+      background-position: -3597px -46px;
+    }
+    &.big {
+      background-position: -3596px 0px;
+    }
+  }
+  &.cz {
+    background-position: -3691px -46px;
+    &.small {
+      background-position: -3691px -46px;
+    }
+    &.middle {
+      background-position: -3659px -46px;
+    }
+    &.big {
+      background-position: -3658px 0px;
+    }
+  }
+  &.dk {
+    background-position: -3753px -46px;
+    &.small {
+      background-position: -3753px -46px;
+    }
+    &.middle {
+      background-position: -3721px -46px;
+    }
+    &.big {
+      background-position: -3720px 0px;
+    }
+  }
+  &.dj {
+    background-position: -3815px -46px;
+    &.small {
+      background-position: -3815px -46px;
+    }
+    &.middle {
+      background-position: -3783px -46px;
+    }
+    &.big {
+      background-position: -3782px 0px;
+    }
+  }
+  &.dm {
+    background-position: -3877px -46px;
+    &.small {
+      background-position: -3877px -46px;
+    }
+    &.middle {
+      background-position: -3845px -46px;
+    }
+    &.big {
+      background-position: -3844px 0px;
+    }
+  }
+  &.do {
+    background-position: -3939px -46px;
+    &.small {
+      background-position: -3939px -46px;
+    }
+    &.middle {
+      background-position: -3907px -46px;
+    }
+    &.big {
+      background-position: -3906px 0px;
+    }
+  }
+  &.ec {
+    background-position: -4001px -46px;
+    &.small {
+      background-position: -4001px -46px;
+    }
+    &.middle {
+      background-position: -3969px -46px;
+    }
+    &.big {
+      background-position: -3968px 0px;
+    }
+  }
+  &.eg {
+    background-position: -4063px -46px;
+    &.small {
+      background-position: -4063px -46px;
+    }
+    &.middle {
+      background-position: -4031px -46px;
+    }
+    &.big {
+      background-position: -4030px 0px;
+    }
+  }
+  &.sv {
+    background-position: -4125px -46px;
+    &.small {
+      background-position: -4125px -46px;
+    }
+    &.middle {
+      background-position: -4093px -46px;
+    }
+    &.big {
+      background-position: -4092px 0px;
+    }
+  }
+  &.gq {
+    background-position: -4187px -46px;
+    &.small {
+      background-position: -4187px -46px;
+    }
+    &.middle {
+      background-position: -4155px -46px;
+    }
+    &.big {
+      background-position: -4154px 0px;
+    }
+  }
+  &.er {
+    background-position: -4249px -46px;
+    &.small {
+      background-position: -4249px -46px;
+    }
+    &.middle {
+      background-position: -4217px -46px;
+    }
+    &.big {
+      background-position: -4216px 0px;
+    }
+  }
+  &.ee {
+    background-position: -4311px -46px;
+    &.small {
+      background-position: -4311px -46px;
+    }
+    &.middle {
+      background-position: -4279px -46px;
+    }
+    &.big {
+      background-position: -4278px 0px;
+    }
+  }
+  &.et {
+    background-position: -4373px -46px;
+    &.small {
+      background-position: -4373px -46px;
+    }
+    &.middle {
+      background-position: -4341px -46px;
+    }
+    &.big {
+      background-position: -4340px 0px;
+    }
+  }
+  &.fk {
+    background-position: -4435px -46px;
+    &.small {
+      background-position: -4435px -46px;
+    }
+    &.middle {
+      background-position: -4403px -46px;
+    }
+    &.big {
+      background-position: -4402px 0px;
+    }
+  }
+  &.fo {
+    background-position: -4497px -46px;
+    &.small {
+      background-position: -4497px -46px;
+    }
+    &.middle {
+      background-position: -4465px -46px;
+    }
+    &.big {
+      background-position: -4464px 0px;
+    }
+  }
+  &.fj {
+    background-position: -4559px -46px;
+    &.small {
+      background-position: -4559px -46px;
+    }
+    &.middle {
+      background-position: -4527px -46px;
+    }
+    &.big {
+      background-position: -4526px 0px;
+    }
+  }
+  &.fi {
+    background-position: -4621px -46px;
+    &.small {
+      background-position: -4621px -46px;
+    }
+    &.middle {
+      background-position: -4589px -46px;
+    }
+    &.big {
+      background-position: -4588px 0px;
+    }
+  }
+  &.fr {
+    background-position: -4683px -46px;
+    &.small {
+      background-position: -4683px -46px;
+    }
+    &.middle {
+      background-position: -4651px -46px;
+    }
+    &.big {
+      background-position: -4650px 0px;
+    }
+  }
+  &.gf {
+    background-position: -4745px -46px;
+    &.small {
+      background-position: -4745px -46px;
+    }
+    &.middle {
+      background-position: -4713px -46px;
+    }
+    &.big {
+      background-position: -4712px 0px;
+    }
+  }
+  &.pf {
+    background-position: -4807px -46px;
+    &.small {
+      background-position: -4807px -46px;
+    }
+    &.middle {
+      background-position: -4775px -46px;
+    }
+    &.big {
+      background-position: -4774px 0px;
+    }
+  }
+  &.tf {
+    background-position: -4869px -46px;
+    &.small {
+      background-position: -4869px -46px;
+    }
+    &.middle {
+      background-position: -4837px -46px;
+    }
+    &.big {
+      background-position: -4836px 0px;
+    }
+  }
+  &.ga {
+    background-position: -4931px -46px;
+    &.small {
+      background-position: -4931px -46px;
+    }
+    &.middle {
+      background-position: -4899px -46px;
+    }
+    &.big {
+      background-position: -4898px 0px;
+    }
+  }
+  &.gm {
+    background-position: -4993px -46px;
+    &.small {
+      background-position: -4993px -46px;
+    }
+    &.middle {
+      background-position: -4961px -46px;
+    }
+    &.big {
+      background-position: -4960px 0px;
+    }
+  }
+  &.ge {
+    background-position: -5055px -46px;
+    &.small {
+      background-position: -5055px -46px;
+    }
+    &.middle {
+      background-position: -5023px -46px;
+    }
+    &.big {
+      background-position: -5022px 0px;
+    }
+  }
+  &.de {
+    background-position: -5117px -46px;
+    &.small {
+      background-position: -5117px -46px;
+    }
+    &.middle {
+      background-position: -5085px -46px;
+    }
+    &.big {
+      background-position: -5084px 0px;
+    }
+  }
+  &.gh {
+    background-position: -5179px -46px;
+    &.small {
+      background-position: -5179px -46px;
+    }
+    &.middle {
+      background-position: -5147px -46px;
+    }
+    &.big {
+      background-position: -5146px 0px;
+    }
+  }
+  &.gi {
+    background-position: -5241px -46px;
+    &.small {
+      background-position: -5241px -46px;
+    }
+    &.middle {
+      background-position: -5209px -46px;
+    }
+    &.big {
+      background-position: -5208px 0px;
+    }
+  }
+  &.gr {
+    background-position: -5303px -46px;
+    &.small {
+      background-position: -5303px -46px;
+    }
+    &.middle {
+      background-position: -5271px -46px;
+    }
+    &.big {
+      background-position: -5270px 0px;
+    }
+  }
+  &.gl {
+    background-position: -5365px -46px;
+    &.small {
+      background-position: -5365px -46px;
+    }
+    &.middle {
+      background-position: -5333px -46px;
+    }
+    &.big {
+      background-position: -5332px 0px;
+    }
+  }
+  &.gd {
+    background-position: -5427px -46px;
+    &.small {
+      background-position: -5427px -46px;
+    }
+    &.middle {
+      background-position: -5395px -46px;
+    }
+    &.big {
+      background-position: -5394px 0px;
+    }
+  }
+  &.gp {
+    background-position: -5489px -46px;
+    &.small {
+      background-position: -5489px -46px;
+    }
+    &.middle {
+      background-position: -5457px -46px;
+    }
+    &.big {
+      background-position: -5456px 0px;
+    }
+  }
+  &.gu {
+    background-position: -5551px -46px;
+    &.small {
+      background-position: -5551px -46px;
+    }
+    &.middle {
+      background-position: -5519px -46px;
+    }
+    &.big {
+      background-position: -5518px 0px;
+    }
+  }
+  &.gt {
+    background-position: -5613px -46px;
+    &.small {
+      background-position: -5613px -46px;
+    }
+    &.middle {
+      background-position: -5581px -46px;
+    }
+    &.big {
+      background-position: -5580px 0px;
+    }
+  }
+  &.gg {
+    background-position: -5675px -46px;
+    &.small {
+      background-position: -5675px -46px;
+    }
+    &.middle {
+      background-position: -5643px -46px;
+    }
+    &.big {
+      background-position: -5642px 0px;
+    }
+  }
+  &.gn {
+    background-position: -5737px -46px;
+    &.small {
+      background-position: -5737px -46px;
+    }
+    &.middle {
+      background-position: -5705px -46px;
+    }
+    &.big {
+      background-position: -5704px 0px;
+    }
+  }
+  &.gw {
+    background-position: -5799px -46px;
+    &.small {
+      background-position: -5799px -46px;
+    }
+    &.middle {
+      background-position: -5767px -46px;
+    }
+    &.big {
+      background-position: -5766px 0px;
+    }
+  }
+  &.gy {
+    background-position: -5861px -46px;
+    &.small {
+      background-position: -5861px -46px;
+    }
+    &.middle {
+      background-position: -5829px -46px;
+    }
+    &.big {
+      background-position: -5828px 0px;
+    }
+  }
+  &.ht {
+    background-position: -5923px -46px;
+    &.small {
+      background-position: -5923px -46px;
+    }
+    &.middle {
+      background-position: -5891px -46px;
+    }
+    &.big {
+      background-position: -5890px 0px;
+    }
+  }
+  &.hm {
+    background-position: -5985px -46px;
+    &.small {
+      background-position: -5985px -46px;
+    }
+    &.middle {
+      background-position: -5953px -46px;
+    }
+    &.big {
+      background-position: -5952px 0px;
+    }
+  }
+  &.va {
+    background-position: -6047px -46px;
+    &.small {
+      background-position: -6047px -46px;
+    }
+    &.middle {
+      background-position: -6015px -46px;
+    }
+    &.big {
+      background-position: -6014px 0px;
+    }
+  }
+  &.hn {
+    background-position: -6109px -46px;
+    &.small {
+      background-position: -6109px -46px;
+    }
+    &.middle {
+      background-position: -6077px -46px;
+    }
+    &.big {
+      background-position: -6076px 0px;
+    }
+  }
+  &.hk {
+    background-position: -6171px -46px;
+    &.small {
+      background-position: -6171px -46px;
+    }
+    &.middle {
+      background-position: -6139px -46px;
+    }
+    &.big {
+      background-position: -6138px 0px;
+    }
+  }
+  &.hu {
+    background-position: -6233px -46px;
+    &.small {
+      background-position: -6233px -46px;
+    }
+    &.middle {
+      background-position: -6201px -46px;
+    }
+    &.big {
+      background-position: -6200px 0px;
+    }
+  }
+  &.is {
+    background-position: -6295px -46px;
+    &.small {
+      background-position: -6295px -46px;
+    }
+    &.middle {
+      background-position: -6263px -46px;
+    }
+    &.big {
+      background-position: -6262px 0px;
+    }
+  }
+  &.in {
+    background-position: -6357px -46px;
+    &.small {
+      background-position: -6357px -46px;
+    }
+    &.middle {
+      background-position: -6325px -46px;
+    }
+    &.big {
+      background-position: -6324px 0px;
+    }
+  }
+  &.id {
+    background-position: -6419px -46px;
+    &.small {
+      background-position: -6419px -46px;
+    }
+    &.middle {
+      background-position: -6387px -46px;
+    }
+    &.big {
+      background-position: -6386px 0px;
+    }
+  }
+  &.ir {
+    background-position: -6481px -46px;
+    &.small {
+      background-position: -6481px -46px;
+    }
+    &.middle {
+      background-position: -6449px -46px;
+    }
+    &.big {
+      background-position: -6448px 0px;
+    }
+  }
+  &.iq {
+    background-position: -6543px -46px;
+    &.small {
+      background-position: -6543px -46px;
+    }
+    &.middle {
+      background-position: -6511px -46px;
+    }
+    &.big {
+      background-position: -6510px 0px;
+    }
+  }
+  &.ie {
+    background-position: -6605px -46px;
+    &.small {
+      background-position: -6605px -46px;
+    }
+    &.middle {
+      background-position: -6573px -46px;
+    }
+    &.big {
+      background-position: -6572px 0px;
+    }
+  }
+  &.im {
+    background-position: -6667px -46px;
+    &.small {
+      background-position: -6667px -46px;
+    }
+    &.middle {
+      background-position: -6635px -46px;
+    }
+    &.big {
+      background-position: -6634px 0px;
+    }
+  }
+  &.il {
+    background-position: -6729px -46px;
+    &.small {
+      background-position: -6729px -46px;
+    }
+    &.middle {
+      background-position: -6697px -46px;
+    }
+    &.big {
+      background-position: -6696px 0px;
+    }
+  }
+  &.it {
+    background-position: -6791px -46px;
+    &.small {
+      background-position: -6791px -46px;
+    }
+    &.middle {
+      background-position: -6759px -46px;
+    }
+    &.big {
+      background-position: -6758px 0px;
+    }
+  }
+  &.jm {
+    background-position: -6853px -46px;
+    &.small {
+      background-position: -6853px -46px;
+    }
+    &.middle {
+      background-position: -6821px -46px;
+    }
+    &.big {
+      background-position: -6820px 0px;
+    }
+  }
+  &.jp {
+    background-position: -6915px -46px;
+    &.small {
+      background-position: -6915px -46px;
+    }
+    &.middle {
+      background-position: -6883px -46px;
+    }
+    &.big {
+      background-position: -6882px 0px;
+    }
+  }
+  &.je {
+    background-position: -6977px -46px;
+    &.small {
+      background-position: -6977px -46px;
+    }
+    &.middle {
+      background-position: -6945px -46px;
+    }
+    &.big {
+      background-position: -6944px 0px;
+    }
+  }
+  &.jo {
+    background-position: -7039px -46px;
+    &.small {
+      background-position: -7039px -46px;
+    }
+    &.middle {
+      background-position: -7007px -46px;
+    }
+    &.big {
+      background-position: -7006px 0px;
+    }
+  }
+  &.kz {
+    background-position: -7101px -46px;
+    &.small {
+      background-position: -7101px -46px;
+    }
+    &.middle {
+      background-position: -7069px -46px;
+    }
+    &.big {
+      background-position: -7068px 0px;
+    }
+  }
+  &.ke {
+    background-position: -7163px -46px;
+    &.small {
+      background-position: -7163px -46px;
+    }
+    &.middle {
+      background-position: -7131px -46px;
+    }
+    &.big {
+      background-position: -7130px 0px;
+    }
+  }
+  &.ki {
+    background-position: -7225px -46px;
+    &.small {
+      background-position: -7225px -46px;
+    }
+    &.middle {
+      background-position: -7193px -46px;
+    }
+    &.big {
+      background-position: -7192px 0px;
+    }
+  }
+  &.kp {
+    background-position: -7287px -46px;
+    &.small {
+      background-position: -7287px -46px;
+    }
+    &.middle {
+      background-position: -7255px -46px;
+    }
+    &.big {
+      background-position: -7254px 0px;
+    }
+  }
+  &.kr {
+    background-position: -7349px -46px;
+    &.small {
+      background-position: -7349px -46px;
+    }
+    &.middle {
+      background-position: -7317px -46px;
+    }
+    &.big {
+      background-position: -7316px 0px;
+    }
+  }
+  &.kw {
+    background-position: -7411px -46px;
+    &.small {
+      background-position: -7411px -46px;
+    }
+    &.middle {
+      background-position: -7379px -46px;
+    }
+    &.big {
+      background-position: -7378px 0px;
+    }
+  }
+  &.kg {
+    background-position: -7473px -46px;
+    &.small {
+      background-position: -7473px -46px;
+    }
+    &.middle {
+      background-position: -7441px -46px;
+    }
+    &.big {
+      background-position: -7440px 0px;
+    }
+  }
+  &.la {
+    background-position: -7535px -46px;
+    &.small {
+      background-position: -7535px -46px;
+    }
+    &.middle {
+      background-position: -7503px -46px;
+    }
+    &.big {
+      background-position: -7502px 0px;
+    }
+  }
+  &.lv {
+    background-position: -7597px -46px;
+    &.small {
+      background-position: -7597px -46px;
+    }
+    &.middle {
+      background-position: -7565px -46px;
+    }
+    &.big {
+      background-position: -7564px 0px;
+    }
+  }
+  &.lb {
+    background-position: -7659px -46px;
+    &.small {
+      background-position: -7659px -46px;
+    }
+    &.middle {
+      background-position: -7627px -46px;
+    }
+    &.big {
+      background-position: -7626px 0px;
+    }
+  }
+  &.ls {
+    background-position: -7721px -46px;
+    &.small {
+      background-position: -7721px -46px;
+    }
+    &.middle {
+      background-position: -7689px -46px;
+    }
+    &.big {
+      background-position: -7688px 0px;
+    }
+  }
+  &.lr {
+    background-position: -7783px -46px;
+    &.small {
+      background-position: -7783px -46px;
+    }
+    &.middle {
+      background-position: -7751px -46px;
+    }
+    &.big {
+      background-position: -7750px 0px;
+    }
+  }
+  &.ly {
+    background-position: -7845px -46px;
+    &.small {
+      background-position: -7845px -46px;
+    }
+    &.middle {
+      background-position: -7813px -46px;
+    }
+    &.big {
+      background-position: -7812px 0px;
+    }
+  }
+  &.li {
+    background-position: -7907px -46px;
+    &.small {
+      background-position: -7907px -46px;
+    }
+    &.middle {
+      background-position: -7875px -46px;
+    }
+    &.big {
+      background-position: -7874px 0px;
+    }
+  }
+  &.lt {
+    background-position: -7969px -46px;
+    &.small {
+      background-position: -7969px -46px;
+    }
+    &.middle {
+      background-position: -7937px -46px;
+    }
+    &.big {
+      background-position: -7936px 0px;
+    }
+  }
+  &.lu {
+    background-position: -8031px -46px;
+    &.small {
+      background-position: -8031px -46px;
+    }
+    &.middle {
+      background-position: -7999px -46px;
+    }
+    &.big {
+      background-position: -7998px 0px;
+    }
+  }
+  &.mo {
+    background-position: -8093px -46px;
+    &.small {
+      background-position: -8093px -46px;
+    }
+    &.middle {
+      background-position: -8061px -46px;
+    }
+    &.big {
+      background-position: -8060px 0px;
+    }
+  }
+  &.mk {
+    background-position: -8155px -46px;
+    &.small {
+      background-position: -8155px -46px;
+    }
+    &.middle {
+      background-position: -8123px -46px;
+    }
+    &.big {
+      background-position: -8122px 0px;
+    }
+  }
+  &.mg {
+    background-position: -8217px -46px;
+    &.small {
+      background-position: -8217px -46px;
+    }
+    &.middle {
+      background-position: -8185px -46px;
+    }
+    &.big {
+      background-position: -8184px 0px;
+    }
+  }
+  &.mw {
+    background-position: -8279px -46px;
+    &.small {
+      background-position: -8279px -46px;
+    }
+    &.middle {
+      background-position: -8247px -46px;
+    }
+    &.big {
+      background-position: -8246px 0px;
+    }
+  }
+  &.my {
+    background-position: -8341px -46px;
+    &.small {
+      background-position: -8341px -46px;
+    }
+    &.middle {
+      background-position: -8309px -46px;
+    }
+    &.big {
+      background-position: -8308px 0px;
+    }
+  }
+  &.mv {
+    background-position: -8403px -46px;
+    &.small {
+      background-position: -8403px -46px;
+    }
+    &.middle {
+      background-position: -8371px -46px;
+    }
+    &.big {
+      background-position: -8370px 0px;
+    }
+  }
+  &.ml {
+    background-position: -8465px -46px;
+    &.small {
+      background-position: -8465px -46px;
+    }
+    &.middle {
+      background-position: -8433px -46px;
+    }
+    &.big {
+      background-position: -8432px 0px;
+    }
+  }
+  &.mt {
+    background-position: -8527px -46px;
+    &.small {
+      background-position: -8527px -46px;
+    }
+    &.middle {
+      background-position: -8495px -46px;
+    }
+    &.big {
+      background-position: -8494px 0px;
+    }
+  }
+  &.mh {
+    background-position: -8589px -46px;
+    &.small {
+      background-position: -8589px -46px;
+    }
+    &.middle {
+      background-position: -8557px -46px;
+    }
+    &.big {
+      background-position: -8556px 0px;
+    }
+  }
+  &.mq {
+    background-position: -8651px -46px;
+    &.small {
+      background-position: -8651px -46px;
+    }
+    &.middle {
+      background-position: -8619px -46px;
+    }
+    &.big {
+      background-position: -8618px 0px;
+    }
+  }
+  &.mr {
+    background-position: -8713px -46px;
+    &.small {
+      background-position: -8713px -46px;
+    }
+    &.middle {
+      background-position: -8681px -46px;
+    }
+    &.big {
+      background-position: -8680px 0px;
+    }
+  }
+  &.mu {
+    background-position: -8775px -46px;
+    &.small {
+      background-position: -8775px -46px;
+    }
+    &.middle {
+      background-position: -8743px -46px;
+    }
+    &.big {
+      background-position: -8742px 0px;
+    }
+  }
+  &.yt {
+    background-position: -8837px -46px;
+    &.small {
+      background-position: -8837px -46px;
+    }
+    &.middle {
+      background-position: -8805px -46px;
+    }
+    &.big {
+      background-position: -8804px 0px;
+    }
+  }
+  &.mx {
+    background-position: -8899px -46px;
+    &.small {
+      background-position: -8899px -46px;
+    }
+    &.middle {
+      background-position: -8867px -46px;
+    }
+    &.big {
+      background-position: -8866px 0px;
+    }
+  }
+  &.fm {
+    background-position: -8961px -46px;
+    &.small {
+      background-position: -8961px -46px;
+    }
+    &.middle {
+      background-position: -8929px -46px;
+    }
+    &.big {
+      background-position: -8928px 0px;
+    }
+  }
+  &.md {
+    background-position: -9023px -46px;
+    &.small {
+      background-position: -9023px -46px;
+    }
+    &.middle {
+      background-position: -8991px -46px;
+    }
+    &.big {
+      background-position: -8990px 0px;
+    }
+  }
+  &.mc {
+    background-position: -9085px -46px;
+    &.small {
+      background-position: -9085px -46px;
+    }
+    &.middle {
+      background-position: -9053px -46px;
+    }
+    &.big {
+      background-position: -9052px 0px;
+    }
+  }
+  &.mn {
+    background-position: -9147px -46px;
+    &.small {
+      background-position: -9147px -46px;
+    }
+    &.middle {
+      background-position: -9115px -46px;
+    }
+    &.big {
+      background-position: -9114px 0px;
+    }
+  }
+  &.me {
+    background-position: -9209px -46px;
+    &.small {
+      background-position: -9209px -46px;
+    }
+    &.middle {
+      background-position: -9177px -46px;
+    }
+    &.big {
+      background-position: -9176px 0px;
+    }
+  }
+  &.ms {
+    background-position: -9271px -46px;
+    &.small {
+      background-position: -9271px -46px;
+    }
+    &.middle {
+      background-position: -9239px -46px;
+    }
+    &.big {
+      background-position: -9238px 0px;
+    }
+  }
+  &.ma {
+    background-position: -9333px -46px;
+    &.small {
+      background-position: -9333px -46px;
+    }
+    &.middle {
+      background-position: -9301px -46px;
+    }
+    &.big {
+      background-position: -9300px 0px;
+    }
+  }
+  &.mz {
+    background-position: -9395px -46px;
+    &.small {
+      background-position: -9395px -46px;
+    }
+    &.middle {
+      background-position: -9363px -46px;
+    }
+    &.big {
+      background-position: -9362px 0px;
+    }
+  }
+  &.mm {
+    background-position: -9457px -46px;
+    &.small {
+      background-position: -9457px -46px;
+    }
+    &.middle {
+      background-position: -9425px -46px;
+    }
+    &.big {
+      background-position: -9424px 0px;
+    }
+  }
+  &.na {
+    background-position: -9519px -46px;
+    &.small {
+      background-position: -9519px -46px;
+    }
+    &.middle {
+      background-position: -9487px -46px;
+    }
+    &.big {
+      background-position: -9486px 0px;
+    }
+  }
+  &.nr {
+    background-position: -9581px -46px;
+    &.small {
+      background-position: -9581px -46px;
+    }
+    &.middle {
+      background-position: -9549px -46px;
+    }
+    &.big {
+      background-position: -9548px 0px;
+    }
+  }
+  &.np {
+    background-position: -9643px -46px;
+    &.small {
+      background-position: -9643px -46px;
+    }
+    &.middle {
+      background-position: -9611px -46px;
+    }
+    &.big {
+      background-position: -9610px 0px;
+    }
+  }
+  &.nl {
+    background-position: -9705px -46px;
+    &.small {
+      background-position: -9705px -46px;
+    }
+    &.middle {
+      background-position: -9673px -46px;
+    }
+    &.big {
+      background-position: -9672px 0px;
+    }
+  }
+  &.nc {
+    background-position: -9767px -46px;
+    &.small {
+      background-position: -9767px -46px;
+    }
+    &.middle {
+      background-position: -9735px -46px;
+    }
+    &.big {
+      background-position: -9734px 0px;
+    }
+  }
+  &.nz {
+    background-position: -9829px -46px;
+    &.small {
+      background-position: -9829px -46px;
+    }
+    &.middle {
+      background-position: -9797px -46px;
+    }
+    &.big {
+      background-position: -9796px 0px;
+    }
+  }
+  &.ni {
+    background-position: -9891px -46px;
+    &.small {
+      background-position: -9891px -46px;
+    }
+    &.middle {
+      background-position: -9859px -46px;
+    }
+    &.big {
+      background-position: -9858px 0px;
+    }
+  }
+  &.ne {
+    background-position: -9953px -46px;
+    &.small {
+      background-position: -9953px -46px;
+    }
+    &.middle {
+      background-position: -9921px -46px;
+    }
+    &.big {
+      background-position: -9920px 0px;
+    }
+  }
+  &.ng {
+    background-position: -10015px -46px;
+    &.small {
+      background-position: -10015px -46px;
+    }
+    &.middle {
+      background-position: -9983px -46px;
+    }
+    &.big {
+      background-position: -9982px 0px;
+    }
+  }
+  &.nu {
+    background-position: -10077px -46px;
+    &.small {
+      background-position: -10077px -46px;
+    }
+    &.middle {
+      background-position: -10045px -46px;
+    }
+    &.big {
+      background-position: -10044px 0px;
+    }
+  }
+  &.nf {
+    background-position: -10139px -46px;
+    &.small {
+      background-position: -10139px -46px;
+    }
+    &.middle {
+      background-position: -10107px -46px;
+    }
+    &.big {
+      background-position: -10106px 0px;
+    }
+  }
+  &.mp {
+    background-position: -10201px -46px;
+    &.small {
+      background-position: -10201px -46px;
+    }
+    &.middle {
+      background-position: -10169px -46px;
+    }
+    &.big {
+      background-position: -10168px 0px;
+    }
+  }
+  &.no {
+    background-position: -10263px -46px;
+    &.small {
+      background-position: -10263px -46px;
+    }
+    &.middle {
+      background-position: -10231px -46px;
+    }
+    &.big {
+      background-position: -10230px 0px;
+    }
+  }
+  &.om {
+    background-position: -10325px -46px;
+    &.small {
+      background-position: -10325px -46px;
+    }
+    &.middle {
+      background-position: -10293px -46px;
+    }
+    &.big {
+      background-position: -10292px 0px;
+    }
+  }
+  &.pk {
+    background-position: -10387px -46px;
+    &.small {
+      background-position: -10387px -46px;
+    }
+    &.middle {
+      background-position: -10355px -46px;
+    }
+    &.big {
+      background-position: -10354px 0px;
+    }
+  }
+  &.pw {
+    background-position: -10449px -46px;
+    &.small {
+      background-position: -10449px -46px;
+    }
+    &.middle {
+      background-position: -10417px -46px;
+    }
+    &.big {
+      background-position: -10416px 0px;
+    }
+  }
+  &.ps {
+    background-position: -10511px -46px;
+    &.small {
+      background-position: -10511px -46px;
+    }
+    &.middle {
+      background-position: -10479px -46px;
+    }
+    &.big {
+      background-position: -10478px 0px;
+    }
+  }
+  &.pa {
+    background-position: -10573px -46px;
+    &.small {
+      background-position: -10573px -46px;
+    }
+    &.middle {
+      background-position: -10541px -46px;
+    }
+    &.big {
+      background-position: -10540px 0px;
+    }
+  }
+  &.pg {
+    background-position: -10635px -46px;
+    &.small {
+      background-position: -10635px -46px;
+    }
+    &.middle {
+      background-position: -10603px -46px;
+    }
+    &.big {
+      background-position: -10602px 0px;
+    }
+  }
+  &.py {
+    background-position: -10697px -46px;
+    &.small {
+      background-position: -10697px -46px;
+    }
+    &.middle {
+      background-position: -10665px -46px;
+    }
+    &.big {
+      background-position: -10664px 0px;
+    }
+  }
+  &.pe {
+    background-position: -10759px -46px;
+    &.small {
+      background-position: -10759px -46px;
+    }
+    &.middle {
+      background-position: -10727px -46px;
+    }
+    &.big {
+      background-position: -10726px 0px;
+    }
+  }
+  &.ph {
+    background-position: -10821px -46px;
+    &.small {
+      background-position: -10821px -46px;
+    }
+    &.middle {
+      background-position: -10789px -46px;
+    }
+    &.big {
+      background-position: -10788px 0px;
+    }
+  }
+  &.pn {
+    background-position: -10883px -46px;
+    &.small {
+      background-position: -10883px -46px;
+    }
+    &.middle {
+      background-position: -10851px -46px;
+    }
+    &.big {
+      background-position: -10850px 0px;
+    }
+  }
+  &.pl {
+    background-position: -10945px -46px;
+    &.small {
+      background-position: -10945px -46px;
+    }
+    &.middle {
+      background-position: -10913px -46px;
+    }
+    &.big {
+      background-position: -10912px 0px;
+    }
+  }
+  &.pt {
+    background-position: -11007px -46px;
+    &.small {
+      background-position: -11007px -46px;
+    }
+    &.middle {
+      background-position: -10975px -46px;
+    }
+    &.big {
+      background-position: -10974px 0px;
+    }
+  }
+  &.pr {
+    background-position: -11069px -46px;
+    &.small {
+      background-position: -11069px -46px;
+    }
+    &.middle {
+      background-position: -11037px -46px;
+    }
+    &.big {
+      background-position: -11036px 0px;
+    }
+  }
+  &.qa {
+    background-position: -11131px -46px;
+    &.small {
+      background-position: -11131px -46px;
+    }
+    &.middle {
+      background-position: -11099px -46px;
+    }
+    &.big {
+      background-position: -11098px 0px;
+    }
+  }
+  &.re {
+    background-position: -11193px -46px;
+    &.small {
+      background-position: -11193px -46px;
+    }
+    &.middle {
+      background-position: -11161px -46px;
+    }
+    &.big {
+      background-position: -11160px 0px;
+    }
+  }
+  &.ro {
+    background-position: -11255px -46px;
+    &.small {
+      background-position: -11255px -46px;
+    }
+    &.middle {
+      background-position: -11223px -46px;
+    }
+    &.big {
+      background-position: -11222px 0px;
+    }
+  }
+  &.ru {
+    background-position: -11317px -46px;
+    &.small {
+      background-position: -11317px -46px;
+    }
+    &.middle {
+      background-position: -11285px -46px;
+    }
+    &.big {
+      background-position: -11284px 0px;
+    }
+  }
+  &.rw {
+    background-position: -11379px -46px;
+    &.small {
+      background-position: -11379px -46px;
+    }
+    &.middle {
+      background-position: -11347px -46px;
+    }
+    &.big {
+      background-position: -11346px 0px;
+    }
+  }
+  &.bl {
+    background-position: -11441px -46px;
+    &.small {
+      background-position: -11441px -46px;
+    }
+    &.middle {
+      background-position: -11409px -46px;
+    }
+    &.big {
+      background-position: -11408px 0px;
+    }
+  }
+  &.sh {
+    background-position: -11503px -46px;
+    &.small {
+      background-position: -11503px -46px;
+    }
+    &.middle {
+      background-position: -11471px -46px;
+    }
+    &.big {
+      background-position: -11470px 0px;
+    }
+  }
+  &.kn {
+    background-position: -11565px -46px;
+    &.small {
+      background-position: -11565px -46px;
+    }
+    &.middle {
+      background-position: -11533px -46px;
+    }
+    &.big {
+      background-position: -11532px 0px;
+    }
+  }
+  &.lc {
+    background-position: -11627px -46px;
+    &.small {
+      background-position: -11627px -46px;
+    }
+    &.middle {
+      background-position: -11595px -46px;
+    }
+    &.big {
+      background-position: -11594px 0px;
+    }
+  }
+  &.mf {
+    background-position: -11689px -46px;
+    &.small {
+      background-position: -11689px -46px;
+    }
+    &.middle {
+      background-position: -11657px -46px;
+    }
+    &.big {
+      background-position: -11656px 0px;
+    }
+  }
+  &.pm {
+    background-position: -11751px -46px;
+    &.small {
+      background-position: -11751px -46px;
+    }
+    &.middle {
+      background-position: -11719px -46px;
+    }
+    &.big {
+      background-position: -11718px 0px;
+    }
+  }
+  &.vc {
+    background-position: -11813px -46px;
+    &.small {
+      background-position: -11813px -46px;
+    }
+    &.middle {
+      background-position: -11781px -46px;
+    }
+    &.big {
+      background-position: -11780px 0px;
+    }
+  }
+  &.ws {
+    background-position: -11875px -46px;
+    &.small {
+      background-position: -11875px -46px;
+    }
+    &.middle {
+      background-position: -11843px -46px;
+    }
+    &.big {
+      background-position: -11842px 0px;
+    }
+  }
+  &.sm {
+    background-position: -11937px -46px;
+    &.small {
+      background-position: -11937px -46px;
+    }
+    &.middle {
+      background-position: -11905px -46px;
+    }
+    &.big {
+      background-position: -11904px 0px;
+    }
+  }
+  &.st {
+    background-position: -11999px -46px;
+    &.small {
+      background-position: -11999px -46px;
+    }
+    &.middle {
+      background-position: -11967px -46px;
+    }
+    &.big {
+      background-position: -11966px 0px;
+    }
+  }
+  &.sa {
+    background-position: -12061px -46px;
+    &.small {
+      background-position: -12061px -46px;
+    }
+    &.middle {
+      background-position: -12029px -46px;
+    }
+    &.big {
+      background-position: -12028px 0px;
+    }
+  }
+  &.sn {
+    background-position: -12123px -46px;
+    &.small {
+      background-position: -12123px -46px;
+    }
+    &.middle {
+      background-position: -12091px -46px;
+    }
+    &.big {
+      background-position: -12090px 0px;
+    }
+  }
+  &.rs {
+    background-position: -12185px -46px;
+    &.small {
+      background-position: -12185px -46px;
+    }
+    &.middle {
+      background-position: -12153px -46px;
+    }
+    &.big {
+      background-position: -12152px 0px;
+    }
+  }
+  &.sc {
+    background-position: -12247px -46px;
+    &.small {
+      background-position: -12247px -46px;
+    }
+    &.middle {
+      background-position: -12215px -46px;
+    }
+    &.big {
+      background-position: -12214px 0px;
+    }
+  }
+  &.sl {
+    background-position: -12309px -46px;
+    &.small {
+      background-position: -12309px -46px;
+    }
+    &.middle {
+      background-position: -12277px -46px;
+    }
+    &.big {
+      background-position: -12276px 0px;
+    }
+  }
+  &.sg {
+    background-position: -12371px -46px;
+    &.small {
+      background-position: -12371px -46px;
+    }
+    &.middle {
+      background-position: -12339px -46px;
+    }
+    &.big {
+      background-position: -12338px 0px;
+    }
+  }
+  &.sx {
+    background-position: -12433px -46px;
+    &.small {
+      background-position: -12433px -46px;
+    }
+    &.middle {
+      background-position: -12401px -46px;
+    }
+    &.big {
+      background-position: -12400px 0px;
+    }
+  }
+  &.sk {
+    background-position: -12495px -46px;
+    &.small {
+      background-position: -12495px -46px;
+    }
+    &.middle {
+      background-position: -12463px -46px;
+    }
+    &.big {
+      background-position: -12462px 0px;
+    }
+  }
+  &.si {
+    background-position: -12557px -46px;
+    &.small {
+      background-position: -12557px -46px;
+    }
+    &.middle {
+      background-position: -12525px -46px;
+    }
+    &.big {
+      background-position: -12524px 0px;
+    }
+  }
+  &.sb {
+    background-position: -12619px -46px;
+    &.small {
+      background-position: -12619px -46px;
+    }
+    &.middle {
+      background-position: -12587px -46px;
+    }
+    &.big {
+      background-position: -12586px 0px;
+    }
+  }
+  &.so {
+    background-position: -12681px -46px;
+    &.small {
+      background-position: -12681px -46px;
+    }
+    &.middle {
+      background-position: -12649px -46px;
+    }
+    &.big {
+      background-position: -12648px 0px;
+    }
+  }
+  &.za {
+    background-position: -12743px -46px;
+    &.small {
+      background-position: -12743px -46px;
+    }
+    &.middle {
+      background-position: -12711px -46px;
+    }
+    &.big {
+      background-position: -12710px 0px;
+    }
+  }
+  &.gs {
+    background-position: -12805px -46px;
+    &.small {
+      background-position: -12805px -46px;
+    }
+    &.middle {
+      background-position: -12773px -46px;
+    }
+    &.big {
+      background-position: -12772px 0px;
+    }
+  }
+  &.ss {
+    background-position: -12867px -46px;
+    &.small {
+      background-position: -12867px -46px;
+    }
+    &.middle {
+      background-position: -12835px -46px;
+    }
+    &.big {
+      background-position: -12834px 0px;
+    }
+  }
+  &.es {
+    background-position: -12929px -46px;
+    &.small {
+      background-position: -12929px -46px;
+    }
+    &.middle {
+      background-position: -12897px -46px;
+    }
+    &.big {
+      background-position: -12896px 0px;
+    }
+  }
+  &.lk {
+    background-position: -12991px -46px;
+    &.small {
+      background-position: -12991px -46px;
+    }
+    &.middle {
+      background-position: -12959px -46px;
+    }
+    &.big {
+      background-position: -12958px 0px;
+    }
+  }
+  &.sd {
+    background-position: -13053px -46px;
+    &.small {
+      background-position: -13053px -46px;
+    }
+    &.middle {
+      background-position: -13021px -46px;
+    }
+    &.big {
+      background-position: -13020px 0px;
+    }
+  }
+  &.sr {
+    background-position: -13115px -46px;
+    &.small {
+      background-position: -13115px -46px;
+    }
+    &.middle {
+      background-position: -13083px -46px;
+    }
+    &.big {
+      background-position: -13082px 0px;
+    }
+  }
+  &.sj {
+    background-position: -13177px -46px;
+    &.small {
+      background-position: -13177px -46px;
+    }
+    &.middle {
+      background-position: -13145px -46px;
+    }
+    &.big {
+      background-position: -13144px 0px;
+    }
+  }
+  &.sz {
+    background-position: -13239px -46px;
+    &.small {
+      background-position: -13239px -46px;
+    }
+    &.middle {
+      background-position: -13207px -46px;
+    }
+    &.big {
+      background-position: -13206px 0px;
+    }
+  }
+  &.se {
+    background-position: -13301px -46px;
+    &.small {
+      background-position: -13301px -46px;
+    }
+    &.middle {
+      background-position: -13269px -46px;
+    }
+    &.big {
+      background-position: -13268px 0px;
+    }
+  }
+  &.ch {
+    background-position: -13363px -46px;
+    &.small {
+      background-position: -13363px -46px;
+    }
+    &.middle {
+      background-position: -13331px -46px;
+    }
+    &.big {
+      background-position: -13330px 0px;
+    }
+  }
+  &.sy {
+    background-position: -13425px -46px;
+    &.small {
+      background-position: -13425px -46px;
+    }
+    &.middle {
+      background-position: -13393px -46px;
+    }
+    &.big {
+      background-position: -13392px 0px;
+    }
+  }
+  &.tw {
+    background-position: -13487px -46px;
+    &.small {
+      background-position: -13487px -46px;
+    }
+    &.middle {
+      background-position: -13455px -46px;
+    }
+    &.big {
+      background-position: -13454px 0px;
+    }
+  }
+  &.tj {
+    background-position: -13549px -46px;
+    &.small {
+      background-position: -13549px -46px;
+    }
+    &.middle {
+      background-position: -13517px -46px;
+    }
+    &.big {
+      background-position: -13516px 0px;
+    }
+  }
+  &.tz {
+    background-position: -13611px -46px;
+    &.small {
+      background-position: -13611px -46px;
+    }
+    &.middle {
+      background-position: -13579px -46px;
+    }
+    &.big {
+      background-position: -13578px 0px;
+    }
+  }
+  &.th {
+    background-position: -13673px -46px;
+    &.small {
+      background-position: -13673px -46px;
+    }
+    &.middle {
+      background-position: -13641px -46px;
+    }
+    &.big {
+      background-position: -13640px 0px;
+    }
+  }
+  &.tl {
+    background-position: -13735px -46px;
+    &.small {
+      background-position: -13735px -46px;
+    }
+    &.middle {
+      background-position: -13703px -46px;
+    }
+    &.big {
+      background-position: -13702px 0px;
+    }
+  }
+  &.tg {
+    background-position: -13797px -46px;
+    &.small {
+      background-position: -13797px -46px;
+    }
+    &.middle {
+      background-position: -13765px -46px;
+    }
+    &.big {
+      background-position: -13764px 0px;
+    }
+  }
+  &.tk {
+    background-position: -13859px -46px;
+    &.small {
+      background-position: -13859px -46px;
+    }
+    &.middle {
+      background-position: -13827px -46px;
+    }
+    &.big {
+      background-position: -13826px 0px;
+    }
+  }
+  &.to {
+    background-position: -13921px -46px;
+    &.small {
+      background-position: -13921px -46px;
+    }
+    &.middle {
+      background-position: -13889px -46px;
+    }
+    &.big {
+      background-position: -13888px 0px;
+    }
+  }
+  &.tt {
+    background-position: -13983px -46px;
+    &.small {
+      background-position: -13983px -46px;
+    }
+    &.middle {
+      background-position: -13951px -46px;
+    }
+    &.big {
+      background-position: -13950px 0px;
+    }
+  }
+  &.tn {
+    background-position: -14045px -46px;
+    &.small {
+      background-position: -14045px -46px;
+    }
+    &.middle {
+      background-position: -14013px -46px;
+    }
+    &.big {
+      background-position: -14012px 0px;
+    }
+  }
+  &.tr {
+    background-position: -14107px -46px;
+    &.small {
+      background-position: -14107px -46px;
+    }
+    &.middle {
+      background-position: -14075px -46px;
+    }
+    &.big {
+      background-position: -14074px 0px;
+    }
+  }
+  &.tm {
+    background-position: -14169px -46px;
+    &.small {
+      background-position: -14169px -46px;
+    }
+    &.middle {
+      background-position: -14137px -46px;
+    }
+    &.big {
+      background-position: -14136px 0px;
+    }
+  }
+  &.tc {
+    background-position: -14231px -46px;
+    &.small {
+      background-position: -14231px -46px;
+    }
+    &.middle {
+      background-position: -14199px -46px;
+    }
+    &.big {
+      background-position: -14198px 0px;
+    }
+  }
+  &.tv {
+    background-position: -14293px -46px;
+    &.small {
+      background-position: -14293px -46px;
+    }
+    &.middle {
+      background-position: -14261px -46px;
+    }
+    &.big {
+      background-position: -14260px 0px;
+    }
+  }
+  &.ug {
+    background-position: -14355px -46px;
+    &.small {
+      background-position: -14355px -46px;
+    }
+    &.middle {
+      background-position: -14323px -46px;
+    }
+    &.big {
+      background-position: -14322px 0px;
+    }
+  }
+  &.ua {
+    background-position: -14417px -46px;
+    &.small {
+      background-position: -14417px -46px;
+    }
+    &.middle {
+      background-position: -14385px -46px;
+    }
+    &.big {
+      background-position: -14384px 0px;
+    }
+  }
+  &.ae {
+    background-position: -14479px -46px;
+    &.small {
+      background-position: -14479px -46px;
+    }
+    &.middle {
+      background-position: -14447px -46px;
+    }
+    &.big {
+      background-position: -14446px 0px;
+    }
+  }
+  &.gb {
+    background-position: -14541px -46px;
+    &.small {
+      background-position: -14541px -46px;
+    }
+    &.middle {
+      background-position: -14509px -46px;
+    }
+    &.big {
+      background-position: -14508px 0px;
+    }
+  }
+  &.us {
+    background-position: -14603px -46px;
+    &.small {
+      background-position: -14603px -46px;
+    }
+    &.middle {
+      background-position: -14571px -46px;
+    }
+    &.big {
+      background-position: -14570px 0px;
+    }
+  }
+  &.um {
+    background-position: -14665px -46px;
+    &.small {
+      background-position: -14665px -46px;
+    }
+    &.middle {
+      background-position: -14633px -46px;
+    }
+    &.big {
+      background-position: -14632px 0px;
+    }
+  }
+  &.uy {
+    background-position: -14727px -46px;
+    &.small {
+      background-position: -14727px -46px;
+    }
+    &.middle {
+      background-position: -14695px -46px;
+    }
+    &.big {
+      background-position: -14694px 0px;
+    }
+  }
+  &.uz {
+    background-position: -14789px -46px;
+    &.small {
+      background-position: -14789px -46px;
+    }
+    &.middle {
+      background-position: -14757px -46px;
+    }
+    &.big {
+      background-position: -14756px 0px;
+    }
+  }
+  &.vu {
+    background-position: -14851px -46px;
+    &.small {
+      background-position: -14851px -46px;
+    }
+    &.middle {
+      background-position: -14819px -46px;
+    }
+    &.big {
+      background-position: -14818px 0px;
+    }
+  }
+  &.ve {
+    background-position: -14913px -46px;
+    &.small {
+      background-position: -14913px -46px;
+    }
+    &.middle {
+      background-position: -14881px -46px;
+    }
+    &.big {
+      background-position: -14880px 0px;
+    }
+  }
+  &.vn {
+    background-position: -14975px -46px;
+    &.small {
+      background-position: -14975px -46px;
+    }
+    &.middle {
+      background-position: -14943px -46px;
+    }
+    &.big {
+      background-position: -14942px 0px;
+    }
+  }
+  &.vg {
+    background-position: -15037px -46px;
+    &.small {
+      background-position: -15037px -46px;
+    }
+    &.middle {
+      background-position: -15005px -46px;
+    }
+    &.big {
+      background-position: -15004px 0px;
+    }
+  }
+  &.vi {
+    background-position: -15099px -46px;
+    &.small {
+      background-position: -15099px -46px;
+    }
+    &.middle {
+      background-position: -15067px -46px;
+    }
+    &.big {
+      background-position: -15066px 0px;
+    }
+  }
+  &.wf {
+    background-position: -15161px -46px;
+    &.small {
+      background-position: -15161px -46px;
+    }
+    &.middle {
+      background-position: -15129px -46px;
+    }
+    &.big {
+      background-position: -15128px 0px;
+    }
+  }
+  &.eh {
+    background-position: -15223px -46px;
+    &.small {
+      background-position: -15223px -46px;
+    }
+    &.middle {
+      background-position: -15191px -46px;
+    }
+    &.big {
+      background-position: -15190px 0px;
+    }
+  }
+  &.ye {
+    background-position: -15285px -46px;
+    &.small {
+      background-position: -15285px -46px;
+    }
+    &.middle {
+      background-position: -15253px -46px;
+    }
+    &.big {
+      background-position: -15252px 0px;
+    }
+  }
+  &.zm {
+    background-position: -15347px -46px;
+    &.small {
+      background-position: -15347px -46px;
+    }
+    &.middle {
+      background-position: -15315px -46px;
+    }
+    &.big {
+      background-position: -15314px 0px;
+    }
+  }
+  &.zw {
+    background-position: -15409px -46px;
+    &.small {
+      background-position: -15409px -46px;
+    }
+    &.middle {
+      background-position: -15377px -46px;
+    }
+    &.big {
+      background-position: -15376px 0px;
+    }
+  }
+  &.eu {
+    background-position: -15471px -46px;
+    &.small {
+      background-position: -15471px -46px;
+    }
+    &.middle {
+      background-position: -15439px -46px;
+    }
+    &.big {
+      background-position: -15438px 0px;
+    }
+  }
+  &.btc {
+    background-position: -15533px -46px;
+    &.small {
+      background-position: -15533px -46px;
+    }
+    &.middle {
+      background-position: -15501px -46px;
+    }
+    &.big {
+      background-position: -15500px 0px;
+    }
+  }
+  &.ltc {
+    background-position: -15595px -46px;
+    &.small {
+      background-position: -15595px -46px;
+    }
+    &.middle {
+      background-position: -15563px -46px;
+    }
+    &.big {
+      background-position: -15562px 0px;
+    }
+  }
+  &.nmc {
+    background-position: -15657px -46px;
+    &.small {
+      background-position: -15657px -46px;
+    }
+    &.middle {
+      background-position: -15625px -46px;
+    }
+    &.big {
+      background-position: -15624px 0px;
+    }
+  }
+  &.xng {
+    background-position: -15719px -46px;
+    &.small {
+      background-position: -15719px -46px;
+    }
+    &.middle {
+      background-position: -15687px -46px;
+    }
+    &.big {
+      background-position: -15686px 0px;
+    }
+  }
+  &.xpt {
+    background-position: -15781px -46px;
+    &.small {
+      background-position: -15781px -46px;
+    }
+    &.middle {
+      background-position: -15749px -46px;
+    }
+    &.big {
+      background-position: -15748px 0px;
+    }
+  }
+  &.xag {
+    background-position: -15843px -46px;
+    &.small {
+      background-position: -15843px -46px;
+    }
+    &.middle {
+      background-position: -15811px -46px;
+    }
+    &.big {
+      background-position: -15810px 0px;
+    }
+  }
+  &.xau {
+    background-position: -15905px -46px;
+    &.small {
+      background-position: -15905px -46px;
+    }
+    &.middle {
+      background-position: -15873px -46px;
+    }
+    &.big {
+      background-position: -15872px 0px;
+    }
+  }
+  &.oil {
+    background-position: -15967px -46px;
+    &.small {
+      background-position: -15967px -46px;
+    }
+    &.middle {
+      background-position: -15935px -46px;
+    }
+    &.big {
+      background-position: -15934px 0px;
+    }
+  }
+  &.aax {
+    background-position: -16029px -46px;
+    &.small {
+      background-position: -16029px -46px;
+    }
+    &.middle {
+      background-position: -15997px -46px;
+    }
+    &.big {
+      background-position: -15996px 0px;
+    }
+  }
+  &.aig {
+    background-position: -16091px -46px;
+    &.small {
+      background-position: -16091px -46px;
+    }
+    &.middle {
+      background-position: -16059px -46px;
+    }
+    &.big {
+      background-position: -16058px 0px;
+    }
+  }
+  &.axp {
+    background-position: -16153px -46px;
+    &.small {
+      background-position: -16153px -46px;
+    }
+    &.middle {
+      background-position: -16121px -46px;
+    }
+    &.big {
+      background-position: -16120px 0px;
+    }
+  }
+  &.bax {
+    background-position: -16215px -46px;
+    &.small {
+      background-position: -16215px -46px;
+    }
+    &.middle {
+      background-position: -16183px -46px;
+    }
+    &.big {
+      background-position: -16182px 0px;
+    }
+  }
+  &.cxx {
+    background-position: -16277px -46px;
+    &.small {
+      background-position: -16277px -46px;
+    }
+    &.middle {
+      background-position: -16245px -46px;
+    }
+    &.big {
+      background-position: -16244px 0px;
+    }
+  }
+  &.cat {
+    background-position: -16339px -46px;
+    &.small {
+      background-position: -16339px -46px;
+    }
+    &.middle {
+      background-position: -16307px -46px;
+    }
+    &.big {
+      background-position: -16306px 0px;
+    }
+  }
+  &.ddx {
+    background-position: -16401px -46px;
+    &.small {
+      background-position: -16401px -46px;
+    }
+    &.middle {
+      background-position: -16369px -46px;
+    }
+    &.big {
+      background-position: -16368px 0px;
+    }
+  }
+  &.dis {
+    background-position: -16463px -46px;
+    &.small {
+      background-position: -16463px -46px;
+    }
+    &.middle {
+      background-position: -16431px -46px;
+    }
+    &.big {
+      background-position: -16430px 0px;
+    }
+  }
+  &.ekx {
+    background-position: -16525px -46px;
+    &.small {
+      background-position: -16525px -46px;
+    }
+    &.middle {
+      background-position: -16493px -46px;
+    }
+    &.big {
+      background-position: -16492px 0px;
+    }
+  }
+  &.gex {
+    background-position: -16587px -46px;
+    &.small {
+      background-position: -16587px -46px;
+    }
+    &.middle {
+      background-position: -16555px -46px;
+    }
+    &.big {
+      background-position: -16554px 0px;
+    }
+  }
+  &.gmx {
+    background-position: -16649px -46px;
+    &.small {
+      background-position: -16649px -46px;
+    }
+    &.middle {
+      background-position: -16617px -46px;
+    }
+    &.big {
+      background-position: -16616px 0px;
+    }
+  }
+  &.hdx {
+    background-position: -16711px -46px;
+    &.small {
+      background-position: -16711px -46px;
+    }
+    &.middle {
+      background-position: -16679px -46px;
+    }
+    &.big {
+      background-position: -16678px 0px;
+    }
+  }
+  &.hon {
+    background-position: -16773px -46px;
+    &.small {
+      background-position: -16773px -46px;
+    }
+    &.middle {
+      background-position: -16741px -46px;
+    }
+    &.big {
+      background-position: -16740px 0px;
+    }
+  }
+  &.hpq {
+    background-position: -16835px -46px;
+    &.small {
+      background-position: -16835px -46px;
+    }
+    &.middle {
+      background-position: -16803px -46px;
+    }
+    &.big {
+      background-position: -16802px 0px;
+    }
+  }
+  &.ibm {
+    background-position: -16897px -46px;
+    &.small {
+      background-position: -16897px -46px;
+    }
+    &.middle {
+      background-position: -16865px -46px;
+    }
+    &.big {
+      background-position: -16864px 0px;
+    }
+  }
+  &.ipx {
+    background-position: -16959px -46px;
+    &.small {
+      background-position: -16959px -46px;
+    }
+    &.middle {
+      background-position: -16927px -46px;
+    }
+    &.big {
+      background-position: -16926px 0px;
+    }
+  }
+  &.int {
+    background-position: -17021px -46px;
+    &.small {
+      background-position: -17021px -46px;
+    }
+    &.middle {
+      background-position: -16989px -46px;
+    }
+    &.big {
+      background-position: -16988px 0px;
+    }
+  }
+  &.jnj {
+    background-position: -17083px -46px;
+    &.small {
+      background-position: -17083px -46px;
+    }
+    &.middle {
+      background-position: -17051px -46px;
+    }
+    &.big {
+      background-position: -17050px 0px;
+    }
+  }
+  &.jpm {
+    background-position: -17145px -46px;
+    &.small {
+      background-position: -17145px -46px;
+    }
+    &.middle {
+      background-position: -17113px -46px;
+    }
+    &.big {
+      background-position: -17112px 0px;
+    }
+  }
+  &.kox {
+    background-position: -17207px -46px;
+    &.small {
+      background-position: -17207px -46px;
+    }
+    &.middle {
+      background-position: -17175px -46px;
+    }
+    &.big {
+      background-position: -17174px 0px;
+    }
+  }
+  &.mcd {
+    background-position: -17269px -46px;
+    &.small {
+      background-position: -17269px -46px;
+    }
+    &.middle {
+      background-position: -17237px -46px;
+    }
+    &.big {
+      background-position: -17236px 0px;
+    }
+  }
+  &.mmm {
+    background-position: -17331px -46px;
+    &.small {
+      background-position: -17331px -46px;
+    }
+    &.middle {
+      background-position: -17299px -46px;
+    }
+    &.big {
+      background-position: -17298px 0px;
+    }
+  }
+  &.mox {
+    background-position: -17393px -46px;
+    &.small {
+      background-position: -17393px -46px;
+    }
+    &.middle {
+      background-position: -17361px -46px;
+    }
+    &.big {
+      background-position: -17360px 0px;
+    }
+  }
+  &.mrk {
+    background-position: -17455px -46px;
+    &.small {
+      background-position: -17455px -46px;
+    }
+    &.middle {
+      background-position: -17423px -46px;
+    }
+    &.big {
+      background-position: -17422px 0px;
+    }
+  }
+  &.msf {
+    background-position: -17517px -46px;
+    &.small {
+      background-position: -17517px -46px;
+    }
+    &.middle {
+      background-position: -17485px -46px;
+    }
+    &.big {
+      background-position: -17484px 0px;
+    }
+  }
+  &.pfe {
+    background-position: -17579px -46px;
+    &.small {
+      background-position: -17579px -46px;
+    }
+    &.middle {
+      background-position: -17547px -46px;
+    }
+    &.big {
+      background-position: -17546px 0px;
+    }
+  }
+  &.pgx {
+    background-position: -17641px -46px;
+    &.small {
+      background-position: -17641px -46px;
+    }
+    &.middle {
+      background-position: -17609px -46px;
+    }
+    &.big {
+      background-position: -17608px 0px;
+    }
+  }
+  &.qqq {
+    background-position: -17703px -46px;
+    &.small {
+      background-position: -17703px -46px;
+    }
+    &.middle {
+      background-position: -17671px -46px;
+    }
+    &.big {
+      background-position: -17670px 0px;
+    }
+  }
+  &.txx {
+    background-position: -17765px -46px;
+    &.small {
+      background-position: -17765px -46px;
+    }
+    &.middle {
+      background-position: -17733px -46px;
+    }
+    &.big {
+      background-position: -17732px 0px;
+    }
+  }
+  &.utx {
+    background-position: -17827px -46px;
+    &.small {
+      background-position: -17827px -46px;
+    }
+    &.middle {
+      background-position: -17795px -46px;
+    }
+    &.big {
+      background-position: -17794px 0px;
+    }
+  }
+  &.vzx {
+    background-position: -17889px -46px;
+    &.small {
+      background-position: -17889px -46px;
+    }
+    &.middle {
+      background-position: -17857px -46px;
+    }
+    &.big {
+      background-position: -17856px 0px;
+    }
+  }
+  &.vmt {
+    background-position: -17951px -46px;
+    &.small {
+      background-position: -17951px -46px;
+    }
+    &.middle {
+      background-position: -17919px -46px;
+    }
+    &.big {
+      background-position: -17918px 0px;
+    }
+  }
+  &.xom {
+    background-position: -18013px -46px;
+    &.small {
+      background-position: -18013px -46px;
+    }
+    &.middle {
+      background-position: -17981px -46px;
+    }
+    &.big {
+      background-position: -17980px 0px;
+    }
+  }
+  &.apl {
+    background-position: -18075px -46px;
+    &.small {
+      background-position: -18075px -46px;
+    }
+    &.middle {
+      background-position: -18043px -46px;
+    }
+    &.big {
+      background-position: -18042px 0px;
+    }
+  }
+  &.axa {
+    background-position: -18137px -46px;
+    &.small {
+      background-position: -18137px -46px;
+    }
+    &.middle {
+      background-position: -18105px -46px;
+    }
+    &.big {
+      background-position: -18104px 0px;
+    }
+  }
+  &.afr {
+    background-position: -18199px -46px;
+    &.small {
+      background-position: -18199px -46px;
+    }
+    &.middle {
+      background-position: -18167px -46px;
+    }
+    &.big {
+      background-position: -18166px 0px;
+    }
+  }
+  &.alu {
+    background-position: -18261px -46px;
+    &.small {
+      background-position: -18261px -46px;
+    }
+    &.middle {
+      background-position: -18229px -46px;
+    }
+    &.big {
+      background-position: -18228px 0px;
+    }
+  }
+  &.bnp {
+    background-position: -18323px -46px;
+    &.small {
+      background-position: -18323px -46px;
+    }
+    &.middle {
+      background-position: -18291px -46px;
+    }
+    &.big {
+      background-position: -18290px 0px;
+    }
+  }
+  &.lor {
+    background-position: -18385px -46px;
+    &.small {
+      background-position: -18385px -46px;
+    }
+    &.middle {
+      background-position: -18353px -46px;
+    }
+    &.big {
+      background-position: -18352px 0px;
+    }
+  }
+  &.lvt {
+    background-position: -18447px -46px;
+    &.small {
+      background-position: -18447px -46px;
+    }
+    &.middle {
+      background-position: -18415px -46px;
+    }
+    &.big {
+      background-position: -18414px 0px;
+    }
+  }
+  &.peu {
+    background-position: -18509px -46px;
+    &.small {
+      background-position: -18509px -46px;
+    }
+    &.middle {
+      background-position: -18477px -46px;
+    }
+    &.big {
+      background-position: -18476px 0px;
+    }
+  }
+  &.sgl {
+    background-position: -18571px -46px;
+    &.small {
+      background-position: -18571px -46px;
+    }
+    &.middle {
+      background-position: -18539px -46px;
+    }
+    &.big {
+      background-position: -18538px 0px;
+    }
+  }
+  &.ttl {
+    background-position: -18633px -46px;
+    &.small {
+      background-position: -18633px -46px;
+    }
+    &.middle {
+      background-position: -18601px -46px;
+    }
+    &.big {
+      background-position: -18600px 0px;
+    }
+  }
+  &.vvi {
+    background-position: -18695px -46px;
+    &.small {
+      background-position: -18695px -46px;
+    }
+    &.middle {
+      background-position: -18663px -46px;
+    }
+    &.big {
+      background-position: -18662px 0px;
+    }
+  }
+  &.add {
+    background-position: -18757px -46px;
+    &.small {
+      background-position: -18757px -46px;
+    }
+    &.middle {
+      background-position: -18725px -46px;
+    }
+    &.big {
+      background-position: -18724px 0px;
+    }
+  }
+  &.alv {
+    background-position: -18819px -46px;
+    &.small {
+      background-position: -18819px -46px;
+    }
+    &.middle {
+      background-position: -18787px -46px;
+    }
+    &.big {
+      background-position: -18786px 0px;
+    }
+  }
+  &.bmw {
+    background-position: -18881px -46px;
+    &.small {
+      background-position: -18881px -46px;
+    }
+    &.middle {
+      background-position: -18849px -46px;
+    }
+    &.big {
+      background-position: -18848px 0px;
+    }
+  }
+  &.bas {
+    background-position: -18943px -46px;
+    &.small {
+      background-position: -18943px -46px;
+    }
+    &.middle {
+      background-position: -18911px -46px;
+    }
+    &.big {
+      background-position: -18910px 0px;
+    }
+  }
+  &.bay {
+    background-position: -19005px -46px;
+    &.small {
+      background-position: -19005px -46px;
+    }
+    &.middle {
+      background-position: -18973px -46px;
+    }
+    &.big {
+      background-position: -18972px 0px;
+    }
+  }
+  &.crz {
+    background-position: -19067px -46px;
+    &.small {
+      background-position: -19067px -46px;
+    }
+    &.middle {
+      background-position: -19035px -46px;
+    }
+    &.big {
+      background-position: -19034px 0px;
+    }
+  }
+  &.ddr {
+    background-position: -19129px -46px;
+    &.small {
+      background-position: -19129px -46px;
+    }
+    &.middle {
+      background-position: -19097px -46px;
+    }
+    &.big {
+      background-position: -19096px 0px;
+    }
+  }
+  &.dbk {
+    background-position: -19191px -46px;
+    &.small {
+      background-position: -19191px -46px;
+    }
+    &.middle {
+      background-position: -19159px -46px;
+    }
+    &.big {
+      background-position: -19158px 0px;
+    }
+  }
+  &.dps {
+    background-position: -19253px -46px;
+    &.small {
+      background-position: -19253px -46px;
+    }
+    &.middle {
+      background-position: -19221px -46px;
+    }
+    &.big {
+      background-position: -19220px 0px;
+    }
+  }
+  &.eon {
+    background-position: -19315px -46px;
+    &.small {
+      background-position: -19315px -46px;
+    }
+    &.middle {
+      background-position: -19283px -46px;
+    }
+    &.big {
+      background-position: -19282px 0px;
+    }
+  }
+  &.lha {
+    background-position: -19377px -46px;
+    &.small {
+      background-position: -19377px -46px;
+    }
+    &.middle {
+      background-position: -19345px -46px;
+    }
+    &.big {
+      background-position: -19344px 0px;
+    }
+  }
+  &.pum {
+    background-position: -19439px -46px;
+    &.small {
+      background-position: -19439px -46px;
+    }
+    &.middle {
+      background-position: -19407px -46px;
+    }
+    &.big {
+      background-position: -19406px 0px;
+    }
+  }
+  &.sap {
+    background-position: -19501px -46px;
+    &.small {
+      background-position: -19501px -46px;
+    }
+    &.middle {
+      background-position: -19469px -46px;
+    }
+    &.big {
+      background-position: -19468px 0px;
+    }
+  }
+  &.sie {
+    background-position: -19563px -46px;
+    &.small {
+      background-position: -19563px -46px;
+    }
+    &.middle {
+      background-position: -19531px -46px;
+    }
+    &.big {
+      background-position: -19530px 0px;
+    }
+  }
+  &.vow {
+    background-position: -19625px -46px;
+    &.small {
+      background-position: -19625px -46px;
+    }
+    &.middle {
+      background-position: -19593px -46px;
+    }
+    &.big {
+      background-position: -19592px 0px;
+    }
+  }
+  &.iii {
+    background-position: -19687px -46px;
+    &.small {
+      background-position: -19687px -46px;
+    }
+    &.middle {
+      background-position: -19655px -46px;
+    }
+    &.big {
+      background-position: -19654px 0px;
+    }
+  }
+  &.avv {
+    background-position: -19749px -46px;
+    &.small {
+      background-position: -19749px -46px;
+    }
+    &.middle {
+      background-position: -19717px -46px;
+    }
+    &.big {
+      background-position: -19716px 0px;
+    }
+  }
+  &.bp0 {
+    background-position: -19811px -46px;
+    &.small {
+      background-position: -19811px -46px;
+    }
+    &.middle {
+      background-position: -19779px -46px;
+    }
+    &.big {
+      background-position: -19778px 0px;
+    }
+  }
+  &.bsp {
+    background-position: -19873px -46px;
+    &.small {
+      background-position: -19873px -46px;
+    }
+    &.middle {
+      background-position: -19841px -46px;
+    }
+    &.big {
+      background-position: -19840px 0px;
+    }
+  }
+  &.bcs {
+    background-position: -19935px -46px;
+    &.small {
+      background-position: -19935px -46px;
+    }
+    &.middle {
+      background-position: -19903px -46px;
+    }
+    &.big {
+      background-position: -19902px 0px;
+    }
+  }
+  &.btd {
+    background-position: -19997px -46px;
+    &.small {
+      background-position: -19997px -46px;
+    }
+    &.middle {
+      background-position: -19965px -46px;
+    }
+    &.big {
+      background-position: -19964px 0px;
+    }
+  }
+  &.bgo {
+    background-position: -20059px -46px;
+    &.small {
+      background-position: -20059px -46px;
+    }
+    &.middle {
+      background-position: -20027px -46px;
+    }
+    &.big {
+      background-position: -20026px 0px;
+    }
+  }
+  &.btq {
+    background-position: -20121px -46px;
+    &.small {
+      background-position: -20121px -46px;
+    }
+    &.middle {
+      background-position: -20089px -46px;
+    }
+    &.big {
+      background-position: -20088px 0px;
+    }
+  }
+  &.bbr {
+    background-position: -20183px -46px;
+    &.small {
+      background-position: -20183px -46px;
+    }
+    &.middle {
+      background-position: -20151px -46px;
+    }
+    &.big {
+      background-position: -20150px 0px;
+    }
+  }
+  &.ejt {
+    background-position: -20245px -46px;
+    &.small {
+      background-position: -20245px -46px;
+    }
+    &.middle {
+      background-position: -20213px -46px;
+    }
+    &.big {
+      background-position: -20212px 0px;
+    }
+  }
+  &.gsk {
+    background-position: -20307px -46px;
+    &.small {
+      background-position: -20307px -46px;
+    }
+    &.middle {
+      background-position: -20275px -46px;
+    }
+    &.big {
+      background-position: -20274px 0px;
+    }
+  }
+  &.glk {
+    background-position: -20369px -46px;
+    &.small {
+      background-position: -20369px -46px;
+    }
+    &.middle {
+      background-position: -20337px -46px;
+    }
+    &.big {
+      background-position: -20336px 0px;
+    }
+  }
+  &.hsb {
+    background-position: -20431px -46px;
+    &.small {
+      background-position: -20431px -46px;
+    }
+    &.middle {
+      background-position: -20399px -46px;
+    }
+    &.big {
+      background-position: -20398px 0px;
+    }
+  }
+  &.lad {
+    background-position: -20493px -46px;
+    &.small {
+      background-position: -20493px -46px;
+    }
+    &.middle {
+      background-position: -20461px -46px;
+    }
+    &.big {
+      background-position: -20460px 0px;
+    }
+  }
+  &.lld {
+    background-position: -20617px -46px;
+    &.small {
+      background-position: -20617px -46px;
+    }
+    &.middle {
+      background-position: -20585px -46px;
+    }
+    &.big {
+      background-position: -20584px 0px;
+    }
+  }
+  &.ldn {
+    background-position: -20679px -46px;
+    &.small {
+      background-position: -20679px -46px;
+    }
+    &.middle {
+      background-position: -20647px -46px;
+    }
+    &.big {
+      background-position: -20646px 0px;
+    }
+  }
+  &.mng {
+    background-position: -20741px -46px;
+    &.small {
+      background-position: -20741px -46px;
+    }
+    &.middle {
+      background-position: -20709px -46px;
+    }
+    &.big {
+      background-position: -20708px 0px;
+    }
+  }
+  &.nxt {
+    background-position: -20803px -46px;
+    &.small {
+      background-position: -20803px -46px;
+    }
+    &.middle {
+      background-position: -20771px -46px;
+    }
+    &.big {
+      background-position: -20770px 0px;
+    }
+  }
+  &.pru {
+    background-position: -20865px -46px;
+    &.small {
+      background-position: -20865px -46px;
+    }
+    &.middle {
+      background-position: -20833px -46px;
+    }
+    &.big {
+      background-position: -20832px 0px;
+    }
+  }
+  &.rbs {
+    background-position: -20927px -46px;
+    &.small {
+      background-position: -20927px -46px;
+    }
+    &.middle {
+      background-position: -20895px -46px;
+    }
+    &.big {
+      background-position: -20894px 0px;
+    }
+  }
+  &.rio {
+    background-position: -20989px -46px;
+    &.small {
+      background-position: -20989px -46px;
+    }
+    &.middle {
+      background-position: -20957px -46px;
+    }
+    &.big {
+      background-position: -20956px 0px;
+    }
+  }
+  &.rru {
+    background-position: -21051px -46px;
+    &.small {
+      background-position: -21051px -46px;
+    }
+    &.middle {
+      background-position: -21019px -46px;
+    }
+    &.big {
+      background-position: -21018px 0px;
+    }
+  }
+  &.sab {
+    background-position: -21113px -46px;
+    &.small {
+      background-position: -21113px -46px;
+    }
+    &.middle {
+      background-position: -21081px -46px;
+    }
+    &.big {
+      background-position: -21080px 0px;
+    }
+  }
+  &.sbr {
+    background-position: -21175px -46px;
+    &.small {
+      background-position: -21175px -46px;
+    }
+    &.middle {
+      background-position: -21143px -46px;
+    }
+    &.big {
+      background-position: -21142px 0px;
+    }
+  }
+  &.spd {
+    background-position: -21237px -46px;
+    &.small {
+      background-position: -21237px -46px;
+    }
+    &.middle {
+      background-position: -21205px -46px;
+    }
+    &.big {
+      background-position: -21204px 0px;
+    }
+  }
+  &.slf {
+    background-position: -21299px -46px;
+    &.small {
+      background-position: -21299px -46px;
+    }
+    &.middle {
+      background-position: -21267px -46px;
+    }
+    &.big {
+      background-position: -21266px 0px;
+    }
+  }
+  &.std {
+    background-position: -21361px -46px;
+    &.small {
+      background-position: -21361px -46px;
+    }
+    &.middle {
+      background-position: -21329px -46px;
+    }
+    &.big {
+      background-position: -21328px 0px;
+    }
+  }
+  &.tsc {
+    background-position: -21423px -46px;
+    &.small {
+      background-position: -21423px -46px;
+    }
+    &.middle {
+      background-position: -21391px -46px;
+    }
+    &.big {
+      background-position: -21390px 0px;
+    }
+  }
+  &.vod {
+    background-position: -21485px -46px;
+    &.small {
+      background-position: -21485px -46px;
+    }
+    &.middle {
+      background-position: -21453px -46px;
+    }
+    &.big {
+      background-position: -21452px 0px;
+    }
+  }
+  &.anf {
+    background-position: -21609px -46px;
+    &.small {
+      background-position: -21609px -46px;
+    }
+    &.middle {
+      background-position: -21577px -46px;
+    }
+    &.big {
+      background-position: -21576px 0px;
+    }
+  }
+  &.adb {
+    background-position: -21671px -46px;
+    &.small {
+      background-position: -21671px -46px;
+    }
+    &.middle {
+      background-position: -21639px -46px;
+    }
+    &.big {
+      background-position: -21638px 0px;
+    }
+  }
+  &.bab {
+    background-position: -21857px -46px;
+    &.small {
+      background-position: -21857px -46px;
+    }
+    &.middle {
+      background-position: -21825px -46px;
+    }
+    &.big {
+      background-position: -21824px 0px;
+    }
+  }
+  &.amz {
+    background-position: -21981px -46px;
+    &.small {
+      background-position: -21981px -46px;
+    }
+    &.middle {
+      background-position: -21949px -46px;
+    }
+    &.big {
+      background-position: -21948px 0px;
+    }
+  }
+  &.bid {
+    background-position: -22229px -46px;
+    &.small {
+      background-position: -22229px -46px;
+    }
+    &.middle {
+      background-position: -22197px -46px;
+    }
+    &.big {
+      background-position: -22196px 0px;
+    }
+  }
+  &.bac {
+    background-position: -22353px -46px;
+    &.small {
+      background-position: -22353px -46px;
+    }
+    &.middle {
+      background-position: -22321px -46px;
+    }
+    &.big {
+      background-position: -22320px 0px;
+    }
+  }
+  &.bmp {
+    background-position: -22415px -46px;
+    &.small {
+      background-position: -22415px -46px;
+    }
+    &.middle {
+      background-position: -22383px -46px;
+    }
+    &.big {
+      background-position: -22382px 0px;
+    }
+  }
+  &.cvx {
+    background-position: -22539px -46px;
+    &.small {
+      background-position: -22539px -46px;
+    }
+    &.middle {
+      background-position: -22507px -46px;
+    }
+    &.big {
+      background-position: -22506px 0px;
+    }
+  }
+  &.chl {
+    background-position: -22601px -46px;
+    &.small {
+      background-position: -22601px -46px;
+    }
+    &.middle {
+      background-position: -22569px -46px;
+    }
+    &.big {
+      background-position: -22568px 0px;
+    }
+  }
+  &.csc {
+    background-position: -22663px -46px;
+    &.small {
+      background-position: -22663px -46px;
+    }
+    &.middle {
+      background-position: -22631px -46px;
+    }
+    &.big {
+      background-position: -22630px 0px;
+    }
+  }
+  &.cmc {
+    background-position: -22849px -46px;
+    &.small {
+      background-position: -22849px -46px;
+    }
+    &.middle {
+      background-position: -22817px -46px;
+    }
+    &.big {
+      background-position: -22816px 0px;
+    }
+  }
+  &.cph {
+    background-position: -22911px -46px;
+    &.small {
+      background-position: -22911px -46px;
+    }
+    &.middle {
+      background-position: -22879px -46px;
+    }
+    &.big {
+      background-position: -22878px 0px;
+    }
+  }
+  &.cos {
+    background-position: -22973px -46px;
+    &.small {
+      background-position: -22973px -46px;
+    }
+    &.middle {
+      background-position: -22941px -46px;
+    }
+    &.big {
+      background-position: -22940px 0px;
+    }
+  }
+  &.eba {
+    background-position: -23159px -46px;
+    &.small {
+      background-position: -23159px -46px;
+    }
+    &.middle {
+      background-position: -23127px -46px;
+    }
+    &.big {
+      background-position: -23126px 0px;
+    }
+  }
+  &.fbo {
+    background-position: -23283px -46px;
+    &.small {
+      background-position: -23283px -46px;
+    }
+    &.middle {
+      background-position: -23251px -46px;
+    }
+    &.big {
+      background-position: -23250px 0px;
+    }
+  }
+  &.fdx {
+    background-position: -23345px -46px;
+    &.small {
+      background-position: -23345px -46px;
+    }
+    &.middle {
+      background-position: -23313px -46px;
+    }
+    &.big {
+      background-position: -23312px 0px;
+    }
+  }
+  &.for {
+    background-position: -23407px -46px;
+    &.small {
+      background-position: -23407px -46px;
+    }
+    &.middle {
+      background-position: -23375px -46px;
+    }
+    &.big {
+      background-position: -23374px 0px;
+    }
+  }
+  &.gsm {
+    background-position: -23593px -46px;
+    &.small {
+      background-position: -23593px -46px;
+    }
+    &.middle {
+      background-position: -23561px -46px;
+    }
+    &.big {
+      background-position: -23560px 0px;
+    }
+  }
+  &.goo {
+    background-position: -23655px -46px;
+    &.small {
+      background-position: -23655px -46px;
+    }
+    &.middle {
+      background-position: -23623px -46px;
+    }
+    &.big {
+      background-position: -23622px 0px;
+    }
+  }
+  &.grn {
+    background-position: -23717px -46px;
+    &.small {
+      background-position: -23717px -46px;
+    }
+    &.middle {
+      background-position: -23685px -46px;
+    }
+    &.big {
+      background-position: -23684px 0px;
+    }
+  }
+  &.hal {
+    background-position: -23779px -46px;
+    &.small {
+      background-position: -23779px -46px;
+    }
+    &.middle {
+      background-position: -23747px -46px;
+    }
+    &.big {
+      background-position: -23746px 0px;
+    }
+  }
+  &.hog {
+    background-position: -23841px -46px;
+    &.small {
+      background-position: -23841px -46px;
+    }
+    &.middle {
+      background-position: -23809px -46px;
+    }
+    &.big {
+      background-position: -23808px 0px;
+    }
+  }
+  &.kdm {
+    background-position: -24337px -46px;
+    &.small {
+      background-position: -24337px -46px;
+    }
+    &.middle {
+      background-position: -24305px -46px;
+    }
+    &.big {
+      background-position: -24304px 0px;
+    }
+  }
+  &.khc {
+    background-position: -24399px -46px;
+    &.small {
+      background-position: -24399px -46px;
+    }
+    &.middle {
+      background-position: -24367px -46px;
+    }
+    &.big {
+      background-position: -24366px 0px;
+    }
+  }
+  &.lvs {
+    background-position: -24461px -46px;
+    &.small {
+      background-position: -24461px -46px;
+    }
+    &.middle {
+      background-position: -24429px -46px;
+    }
+    &.big {
+      background-position: -24428px 0px;
+    }
+  }
+  &.lnk {
+    background-position: -24523px -46px;
+    &.small {
+      background-position: -24523px -46px;
+    }
+    &.middle {
+      background-position: -24491px -46px;
+    }
+    &.big {
+      background-position: -24490px 0px;
+    }
+  }
+  &.mst {
+    background-position: -24585px -46px;
+    &.small {
+      background-position: -24585px -46px;
+    }
+    &.middle {
+      background-position: -24553px -46px;
+    }
+    &.big {
+      background-position: -24552px 0px;
+    }
+  }
+  &.mac {
+    background-position: -24647px -46px;
+    &.small {
+      background-position: -24647px -46px;
+    }
+    &.middle {
+      background-position: -24615px -46px;
+    }
+    &.big {
+      background-position: -24614px 0px;
+    }
+  }
+  &.mgm {
+    background-position: -24833px -46px;
+    &.small {
+      background-position: -24833px -46px;
+    }
+    &.middle {
+      background-position: -24801px -46px;
+    }
+    &.big {
+      background-position: -24800px 0px;
+    }
+  }
+  &.mdl {
+    background-position: -24957px -46px;
+    &.small {
+      background-position: -24957px -46px;
+    }
+    &.middle {
+      background-position: -24925px -46px;
+    }
+    &.big {
+      background-position: -24924px 0px;
+    }
+  }
+  &.mww {
+    background-position: -25019px -46px;
+    &.small {
+      background-position: -25019px -46px;
+    }
+    &.middle {
+      background-position: -24987px -46px;
+    }
+    &.big {
+      background-position: -24986px 0px;
+    }
+  }
+  &.mco {
+    background-position: -25081px -46px;
+    &.small {
+      background-position: -25081px -46px;
+    }
+    &.middle {
+      background-position: -25049px -46px;
+    }
+    &.big {
+      background-position: -25048px 0px;
+    }
+  }
+  &.msi {
+    background-position: -25143px -46px;
+    &.small {
+      background-position: -25143px -46px;
+    }
+    &.middle {
+      background-position: -25111px -46px;
+    }
+    &.big {
+      background-position: -25110px 0px;
+    }
+  }
+  &.nfl {
+    background-position: -25205px -46px;
+    &.small {
+      background-position: -25205px -46px;
+    }
+    &.middle {
+      background-position: -25173px -46px;
+    }
+    &.big {
+      background-position: -25172px 0px;
+    }
+  }
+  &.nws {
+    background-position: -25267px -46px;
+    &.small {
+      background-position: -25267px -46px;
+    }
+    &.middle {
+      background-position: -25235px -46px;
+    }
+    &.big {
+      background-position: -25234px 0px;
+    }
+  }
+  &.nke {
+    background-position: -25329px -46px;
+    &.small {
+      background-position: -25329px -46px;
+    }
+    &.middle {
+      background-position: -25297px -46px;
+    }
+    &.big {
+      background-position: -25296px 0px;
+    }
+  }
+  &.nvs {
+    background-position: -25391px -46px;
+    &.small {
+      background-position: -25391px -46px;
+    }
+    &.middle {
+      background-position: -25359px -46px;
+    }
+    &.big {
+      background-position: -25358px 0px;
+    }
+  }
+  &.nvd {
+    background-position: -25453px -46px;
+    &.small {
+      background-position: -25453px -46px;
+    }
+    &.middle {
+      background-position: -25421px -46px;
+    }
+    &.big {
+      background-position: -25420px 0px;
+    }
+  }
+  &.orc {
+    background-position: -25515px -46px;
+    &.small {
+      background-position: -25515px -46px;
+    }
+    &.middle {
+      background-position: -25483px -46px;
+    }
+    &.big {
+      background-position: -25482px 0px;
+    }
+  }
+  &.pef {
+    background-position: -25639px -46px;
+    &.small {
+      background-position: -25639px -46px;
+    }
+    &.middle {
+      background-position: -25607px -46px;
+    }
+    &.big {
+      background-position: -25606px 0px;
+    }
+  }
+  &.pjx {
+    background-position: -25701px -46px;
+    &.small {
+      background-position: -25701px -46px;
+    }
+    &.middle {
+      background-position: -25669px -46px;
+    }
+    &.big {
+      background-position: -25668px 0px;
+    }
+  }
+  &.pmi {
+    background-position: -25825px -46px;
+    &.small {
+      background-position: -25825px -46px;
+    }
+    &.middle {
+      background-position: -25793px -46px;
+    }
+    &.big {
+      background-position: -25792px 0px;
+    }
+  }
+  &.qco {
+    background-position: -25887px -46px;
+    &.small {
+      background-position: -25887px -46px;
+    }
+    &.middle {
+      background-position: -25855px -46px;
+    }
+    &.big {
+      background-position: -25854px 0px;
+    }
+  }
+  &.rlc {
+    background-position: -25949px -46px;
+    &.small {
+      background-position: -25949px -46px;
+    }
+    &.middle {
+      background-position: -25917px -46px;
+    }
+    &.big {
+      background-position: -25916px 0px;
+    }
+  }
+  &.sch {
+    background-position: -26011px -46px;
+    &.small {
+      background-position: -26011px -46px;
+    }
+    &.middle {
+      background-position: -25979px -46px;
+    }
+    &.big {
+      background-position: -25978px 0px;
+    }
+  }
+  &.sha {
+    background-position: -26073px -46px;
+    &.small {
+      background-position: -26073px -46px;
+    }
+    &.middle {
+      background-position: -26041px -46px;
+    }
+    &.big {
+      background-position: -26040px 0px;
+    }
+  }
+  &.sne {
+    background-position: -26135px -46px;
+    &.small {
+      background-position: -26135px -46px;
+    }
+    &.middle {
+      background-position: -26103px -46px;
+    }
+    &.big {
+      background-position: -26102px 0px;
+    }
+  }
+  &.spt {
+    background-position: -26197px -46px;
+    &.small {
+      background-position: -26197px -46px;
+    }
+    &.middle {
+      background-position: -26165px -46px;
+    }
+    &.big {
+      background-position: -26164px 0px;
+    }
+  }
+  &.spl {
+    background-position: -26259px -46px;
+    &.small {
+      background-position: -26259px -46px;
+    }
+    &.middle {
+      background-position: -26227px -46px;
+    }
+    &.big {
+      background-position: -26226px 0px;
+    }
+  }
+  &.sbu {
+    background-position: -26321px -46px;
+    &.small {
+      background-position: -26321px -46px;
+    }
+    &.middle {
+      background-position: -26289px -46px;
+    }
+    &.big {
+      background-position: -26288px 0px;
+    }
+  }
+  &.sym {
+    background-position: -26383px -46px;
+    &.small {
+      background-position: -26383px -46px;
+    }
+    &.middle {
+      background-position: -26351px -46px;
+    }
+    &.big {
+      background-position: -26350px 0px;
+    }
+  }
+  &.tsl {
+    background-position: -26445px -46px;
+    &.small {
+      background-position: -26445px -46px;
+    }
+    &.middle {
+      background-position: -26413px -46px;
+    }
+    &.big {
+      background-position: -26412px 0px;
+    }
+  }
+  &.tif {
+    background-position: -26507px -46px;
+    &.small {
+      background-position: -26507px -46px;
+    }
+    &.middle {
+      background-position: -26475px -46px;
+    }
+    &.big {
+      background-position: -26474px 0px;
+    }
+  }
+  &.twx {
+    background-position: -26569px -46px;
+    &.small {
+      background-position: -26569px -46px;
+    }
+    &.middle {
+      background-position: -26537px -46px;
+    }
+    &.big {
+      background-position: -26536px 0px;
+    }
+  }
+  &.tmc {
+    background-position: -26631px -46px;
+    &.small {
+      background-position: -26631px -46px;
+    }
+    &.middle {
+      background-position: -26599px -46px;
+    }
+    &.big {
+      background-position: -26598px 0px;
+    }
+  }
+  &.trv {
+    background-position: -26693px -46px;
+    &.small {
+      background-position: -26693px -46px;
+    }
+    &.middle {
+      background-position: -26661px -46px;
+    }
+    &.big {
+      background-position: -26660px 0px;
+    }
+  }
+  &.tri {
+    background-position: -26755px -46px;
+    &.small {
+      background-position: -26755px -46px;
+    }
+    &.middle {
+      background-position: -26723px -46px;
+    }
+    &.big {
+      background-position: -26722px 0px;
+    }
+  }
+  &.twt {
+    background-position: -26817px -46px;
+    &.small {
+      background-position: -26817px -46px;
+    }
+    &.middle {
+      background-position: -26785px -46px;
+    }
+    &.big {
+      background-position: -26784px 0px;
+    }
+  }
+  &.uth {
+    background-position: -26879px -46px;
+    &.small {
+      background-position: -26879px -46px;
+    }
+    &.middle {
+      background-position: -26847px -46px;
+    }
+    &.big {
+      background-position: -26846px 0px;
+    }
+  }
+  &.val {
+    background-position: -27003px -46px;
+    &.small {
+      background-position: -27003px -46px;
+    }
+    &.middle {
+      background-position: -26971px -46px;
+    }
+    &.big {
+      background-position: -26970px 0px;
+    }
+  }
+  &.vsa {
+    background-position: -27127px -46px;
+    &.small {
+      background-position: -27127px -46px;
+    }
+    &.middle {
+      background-position: -27095px -46px;
+    }
+    &.big {
+      background-position: -27094px 0px;
+    }
+  }
+  &.wfc {
+    background-position: -27251px -46px;
+    &.small {
+      background-position: -27251px -46px;
+    }
+    &.middle {
+      background-position: -27219px -46px;
+    }
+    &.big {
+      background-position: -27218px 0px;
+    }
+  }
+  &.wun {
+    background-position: -27313px -46px;
+    &.small {
+      background-position: -27313px -46px;
+    }
+    &.middle {
+      background-position: -27281px -46px;
+    }
+    &.big {
+      background-position: -27280px 0px;
+    }
+  }
+  &.yho {
+    background-position: -27375px -46px;
+    &.small {
+      background-position: -27375px -46px;
+    }
+    &.middle {
+      background-position: -27343px -46px;
+    }
+    &.big {
+      background-position: -27342px 0px;
+    }
+  }
+  &.yel {
+    background-position: -27437px -46px;
+    &.small {
+      background-position: -27437px -46px;
+    }
+    &.middle {
+      background-position: -27405px -46px;
+    }
+    &.big {
+      background-position: -27404px 0px;
+    }
+  }
+  &.zng {
+    background-position: -27561px -46px;
+    &.small {
+      background-position: -27561px -46px;
+    }
+    &.middle {
+      background-position: -27529px -46px;
+    }
+    &.big {
+      background-position: -27528px 0px;
+    }
+  }
+  &.xcj {
+    background-position: -27623px -46px;
+    &.small {
+      background-position: -27623px -46px;
+    }
+    &.middle {
+      background-position: -27591px -46px;
+    }
+    &.big {
+      background-position: -27590px 0px;
+    }
+  }
+  &.xkt {
+    background-position: -27685px -46px;
+    &.small {
+      background-position: -27685px -46px;
+    }
+    &.middle {
+      background-position: -27653px -46px;
+    }
+    &.big {
+      background-position: -27652px 0px;
+    }
+  }
+  &.xic {
+    background-position: -27747px -46px;
+    &.small {
+      background-position: -27747px -46px;
+    }
+    &.middle {
+      background-position: -27715px -46px;
+    }
+    &.big {
+      background-position: -27714px 0px;
+    }
+  }
+  &.xct {
+    background-position: -27809px -46px;
+    &.small {
+      background-position: -27809px -46px;
+    }
+    &.middle {
+      background-position: -27777px -46px;
+    }
+    &.big {
+      background-position: -27776px 0px;
+    }
+  }
+  &.xzs {
+    background-position: -27871px -46px;
+    &.small {
+      background-position: -27871px -46px;
+    }
+    &.middle {
+      background-position: -27839px -46px;
+    }
+    &.big {
+      background-position: -27838px 0px;
+    }
+  }
+  &.xyo {
+    background-position: -27933px -46px;
+    &.small {
+      background-position: -27933px -46px;
+    }
+    &.middle {
+      background-position: -27901px -46px;
+    }
+    &.big {
+      background-position: -27900px 0px;
+    }
+  }
+  &.xiw {
+    background-position: -27995px -46px;
+    &.small {
+      background-position: -27995px -46px;
+    }
+    &.middle {
+      background-position: -27963px -46px;
+    }
+    &.big {
+      background-position: -27962px 0px;
+    }
+  }
+  &.xnu {
+    background-position: -28057px -46px;
+    &.small {
+      background-position: -28057px -46px;
+    }
+    &.middle {
+      background-position: -28025px -46px;
+    }
+    &.big {
+      background-position: -28024px 0px;
+    }
+  }
+  &.ynd {
+    background-position: -28119px -46px;
+    &.small {
+      background-position: -28119px -46px;
+    }
+    &.middle {
+      background-position: -28087px -46px;
+    }
+    &.big {
+      background-position: -28086px 0px;
+    }
+  }
+  &.wfm {
+    background-position: -28181px -46px;
+    &.small {
+      background-position: -28181px -46px;
+    }
+    &.middle {
+      background-position: -28149px -46px;
+    }
+    &.big {
+      background-position: -28148px 0px;
+    }
+  }
+}
+.icon {
+  color: #d8d8d8;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  &:hover {
+    color: #d8d8d8;
+  }
+  + .icon {
+    margin-left: 5px;
+  }
+}
+.align-left {
+  text-align: left;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
