@@ -2,7 +2,8 @@
 
 export default {
 	system: {
-		loaded: false
+		loaded: false,
+		overlay: 'off'
 	},
 	categories: [],
 	styles: [],
