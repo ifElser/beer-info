@@ -2,10 +2,9 @@
 
 export default {
 	system: {
-		loaded: false,
-		overlay: 'off'
+		overlay: 'on'
 	},
-	categories: [],
-	styles: [],
+	categories: {},
+	styles: {},
 	style: {}
 };

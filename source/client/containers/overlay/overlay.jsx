@@ -18,7 +18,7 @@ export default class Overlay extends Component {
 	}
 
 	componentWillUpdate() {
-		document.body.style.overflowY = this.props.state.component === 'off' ? 'auto' : 'hidden'
+		document.body.style.overflowY = this.props.state.overlay === 'off' ? 'auto' : 'hidden'
 	}
 
 	onClose(){
@@ -26,9 +26,11 @@ export default class Overlay extends Component {
 	}
 
 	render(){
-		let component = this.props.state.component;
+		console.log(this.props);
+		let component = this.props.state.overlay;
 		let overlay = {
-			off: null
+			off: null,
+			on: <div>overlay</div>
 			/*overlay components*/
 		}
 		return (

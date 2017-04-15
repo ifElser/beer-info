@@ -1,6 +1,6 @@
 {
-  "name": "404",
+  "name": "NotFoundPage",
   "version": "1.0.0",
-  "main": "404.jsx",
+  "main": "NotFoundPage.jsx",
   "author": "js-coder@mail.ru"
 }
