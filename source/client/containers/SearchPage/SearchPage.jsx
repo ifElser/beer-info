@@ -13,6 +13,8 @@ import css from './SearchPage.scss'
 
 import actions from '../../actions/categories'
 
+import UnderConstruction from '../../components/UnderConstruction'
+
 // import SearchForm from './containers/search-form'
 // import SearchResultsList from './containers/search-result-list'
 // import SearchResultsDetailes from './containers/search-result-detailes'
@@ -38,9 +40,14 @@ class SearchPage extends Component {
   }
 
   render() {
-    return (
-      <div>Search page</div>
-    )
+    let categories = this.props.state.categories;
+    return <UnderConstruction />
+    //   : <select>{
+    //     categories.data && categories.data.length ? categories.data.map((category, key) => {
+    //       return <option key={key} value={category.id}>{category.name}</option>
+    //     }) : null
+    //   }</select>
+    // )
   }
 }
 

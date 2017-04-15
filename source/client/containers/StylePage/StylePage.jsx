@@ -10,6 +10,8 @@ import C from 'classnames'
 
 import css from './StylePage.scss'
 
+import UnderConstruction from '../../components/UnderConstruction'
+
 import { ACTIONS } from '../../constants'
 // import SearchForm from './containers/search-form'
 // import SearchResultsList from './containers/search-result-list'
@@ -31,9 +33,7 @@ class StylePage extends Component {
   }
 
   render() {
-    return (
-      <div>Style page</div>
-    )
+    return <UnderConstruction />
   }
 }
 

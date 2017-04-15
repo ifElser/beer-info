@@ -13,7 +13,7 @@ export default dispatch => (disp, state, store) => {
         console.log(json)
         return dispatch({
           type: 'CATEGORIES_RECEIVED',
-          data: json.data
+          data: json.data.filter(category => category.name && category.name !== '""' )
         })
       })
     }

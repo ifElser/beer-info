@@ -11,6 +11,8 @@ import { StatsWriterPlugin } from "webpack-stats-plugin";
 const production = process.env.NODE_ENV === 'production';
 const nodeEnv = production ? 'production' : 'development';
 
+const keys = Object.keys;
+
 console.log(`Mode: \u001b[3${production ? '1' : '3'}m${nodeEnv}\u001b[0m`);
 
 const buildPath = path.resolve(__dirname, `./build/${nodeEnv}/client`);
@@ -81,13 +83,31 @@ const plugins = [
         }
     }),
 
+    /**
+     * Build index.html
+     */
     {
         apply(compiler){
-            compiler.plugin('emit', (compilation, callback) => {
+
+            compiler.plugin('after-emit', (compilation, callback) => {
+                let assets = require(path.join(buildPath, `/assets/${nodeEnv}-assets.json`));
                 let index = fs
                     .readFileSync( path.join(sourcePath, '/client/index.html'), {encoding: 'utf8'} )
-                    .replace(RegExp(`(<!--#)?\\s*(${nodeEnv}|common)\\s*(#-->)?`, 'ig'), '');
-                compilation.assets['index.html'] = { source: () => index, size: () => index.length };
+                    .replace(RegExp(`(<!--#)?\\s*(${nodeEnv}|common)\\s*(#-->)?`, 'ig'), '')
+                    .replace(RegExp(`<!--#\\s*(development|production).*(development|production)\\s*#-->`, 'ig'), '')
+                    .replace('\n', '')
+                    .replace(/>\s*</ig, '><')
+                    .replace(/(<\!DOCTYPE[^>]+>)/, '$1\n');
+                keys(assets).forEach(
+                    asset => keys(assets[asset]).forEach(
+                        ext => (index = index.replace(`${asset}.${ext}`, assets[asset][ext]))
+                    )
+                )
+                // compilation.assets['index.html'] = { source: () => index, size: () => index.length };
+                fs.writeFileSync(path.join(buildPath, `/index.html`), index);
+                fs.createReadStream( path.join(sourcePath, '/client/assets/favicon.bmp') )
+                .pipe(fs.createWriteStream(path.join(buildPath, `/favicon.bmp`)))
+
                 callback()
             })
         }
@@ -116,7 +136,33 @@ if (production) {
                 except: ['$super', '$', 'exports', 'require']
             },
             output: { comments: false },
-        })
+        }),
+
+        /**
+         * Clean build directory
+         */
+        {
+            apply(compiler){
+                compiler.plugin('emit', (compilation, callback) => {
+
+                    let excluded = [
+                        '.git',
+                        '.gitignore',
+                        'LICENSE',
+                        'README.md'
+                    ].reduce((hash, name) => ({...hash, [name]:1}), {})
+
+                    fs.readdirSync(buildPath)
+                    .filter(name => !(name in excluded))
+                    .forEach(name => fs.stat(
+                        name,
+                        (err, stat) => (!err && stat && stat.isFile() && fs.unlinkSync(name))
+                    ))
+
+                    callback()
+                })
+            }
+        }
 
     );
 } else {
