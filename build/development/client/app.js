@@ -2325,7 +2325,7 @@ exports = module.exports = __webpack_require__("../node_modules/css-loader/lib/c
 
 
 // module
-exports.push([module.i, "body {\n  background: #ffffff;\n  background: -moz-linear-gradient(top, #ffffff 5%, #ffffff 5%, #efcf00 10%, #efdf73 54%, #f1da36 100%) no-repeat;\n  background: -webkit-linear-gradient(top, #ffffff 5%, #ffffff 5%, #efcf00 10%, #efdf73 54%, #f1da36 100%) no-repeat;\n  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 5%, #efcf00 10%, #efdf73 54%, #f1da36 100%) no-repeat;\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1da36',GradientType=0 );\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n", ""]);
+exports.push([module.i, "body, html, body > div:first-child {\n  height: 100%;\n  border: 0;\n  margin: 0;\n  padding: 0; }\n\nbody > div:first-child {\n  width: 100%;\n  font-size: 48px;\n  text-align: center;\n  font-family: Comic Sans;\n  color: rgba(255, 255, 255, 0.9);\n  text-shadow: 0 2px chocolate, 0 1px 2px darkorange, 0 8px 8px darkgoldenrod;\n  background: #ffffff;\n  background: -moz-linear-gradient(top, #f5f1e3 0%, #ffffff 5%, #ffffff 10%, #efb000 12%, #ffdc3f 54%, #fdbc17 100%) no-repeat;\n  background: -webkit-linear-gradient(top, #f5f1e3 0%, #ffffff 5%, #ffffff 10%, #efb000 12%, #ffdc3f 54%, #fdbc17 100%) no-repeat;\n  background: linear-gradient(to bottom, #f5f1e3 0%, #ffffff 5%, #ffffff 10%, #efb000 12%, #ffdc3f 54%, #fdbc17 100%) no-repeat;\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1da36',GradientType=0 );\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n", ""]);
 
 // exports
 
@@ -19009,17 +19009,13 @@ var SearchPage = (_dec = (0, _reactRedux.connect)(function (state) {
     key: 'render',
     value: function render() {
       var categories = this.props.state.categories;
-      return _react2.default.createElement(
-        'select',
-        null,
-        categories.data && categories.data.length ? categories.data.map(function (category, key) {
-          return _react2.default.createElement(
-            'option',
-            { key: key, value: category.id },
-            category.name
-          );
-        }) : null
-      );
+      return _react2.default.createElement(_UnderConstruction2.default, null);
+      //   : <select>{
+      //     categories.data && categories.data.length ? categories.data.map((category, key) => {
+      //       return <option key={key} value={category.id}>{category.name}</option>
+      //     }) : null
+      //   }</select>
+      // )
     }
   }]);
 
@@ -19091,6 +19087,10 @@ var _StylePage = __webpack_require__("./client/containers/StylePage/StylePage.sc
 
 var _StylePage2 = _interopRequireDefault(_StylePage);
 
+var _UnderConstruction = __webpack_require__("./client/components/UnderConstruction/UnderConstruction.jsx");
+
+var _UnderConstruction2 = _interopRequireDefault(_UnderConstruction);
+
 var _constants = __webpack_require__("./client/constants.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -19128,11 +19128,7 @@ var StylePage = (_dec = (0, _reactRedux.connect)(function (state) {
   _createClass(StylePage, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        'Style page'
-      );
+      return _react2.default.createElement(_UnderConstruction2.default, null);
     }
   }]);
 
